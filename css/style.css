@@ -12,7 +12,8 @@ img.logo {
 nav.top-menu {
     padding: 5px 0 0 0;
     position: absolute;
-    margin-left: 250px;
+    left: 50%;
+    margin-left: -370px;
 }
 
 nav.top-menu ul {
