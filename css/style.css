@@ -49,26 +49,22 @@ nav.top-menu ul li a:hover {
     text-align: center;
 }
 
-.feature_mobile {
-    margin: 0 auto;
+.feature_mobile, .feature_2, .feature_3, .feature_4 {
+    display: inline-block;
+    margin: 10em auto;
     text-align: justify;
     width: 200px;
     height: 600px;
+    padding: 0 1em;
 }
 
-.feature_mobile_img {
+.feature_mobile_img, .feature_2_img, .feature_3_img, .feature_4_img {
     width: 200px;
     height: 200px;
     background-color: #FF8156;
 }
 
-.feature_mobile_img  {
-    width: 200px;
-    height: 200px;
-    background-color: #FF8156;
-}
-
-.feature_mobile_img  h1 {
+.feature_mobile_img h1, .feature_2_img h1, .feature_3_img h1, .feature_4_img h1 {
     padding: 2em 1em;
     text-align: center;
     color: white;
