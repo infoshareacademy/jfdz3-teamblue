@@ -41,6 +41,43 @@ nav.top-menu ul li a:hover {
     background-color: #75C7B5;
     color: #000000;
 }
+/* CSS do klasy features */
+
+.features {
+    margin: 0 auto;
+    font-family: 'Segoe UI', serif;
+    text-align: center;
+}
+
+.feature_mobile, .feature_2, .feature_3, .feature_4 {
+    display: inline-block;
+    margin: 10em auto;
+    text-align: justify;
+    width: 200px;
+    height: 600px;
+    padding: 0 1em;
+}
+
+.feature_mobile_img, .feature_2_img, .feature_3_img, .feature_4_img {
+    width: 200px;
+    height: 200px;
+    background-color: #FF8156;
+}
+
+.feature_mobile_img h1, .feature_2_img h1, .feature_3_img h1, .feature_4_img h1 {
+    padding: 2em 1em;
+    text-align: center;
+    color: white;
+}
+
+.feature_mobile_img:hover {
+    width: 200px;
+    height: 200px;
+    background-image: url('smartphone.png');
+    background-size: 200px 200px;
+}
+/* Koniec CSS do klasy features */
+
 div.team {
     background-color: #B24622;
     border: black solid 3px;
@@ -82,40 +119,3 @@ div.olga {
 
 }
 
-/* CSS do klasy features */
-
-.features {
-    margin: 0 auto;
-    font-family: 'Segoe UI', serif;
-    text-align: center;
-}
-
-.feature_mobile, .feature_2, .feature_3, .feature_4 {
-    display: inline-block;
-    margin: 10em auto;
-    text-align: justify;
-    width: 200px;
-    height: 600px;
-    padding: 0 1em;
-}
-
-.feature_mobile_img, .feature_2_img, .feature_3_img, .feature_4_img {
-    width: 200px;
-    height: 200px;
-    background-color: #FF8156;
-}
-
-.feature_mobile_img h1, .feature_2_img h1, .feature_3_img h1, .feature_4_img h1 {
-    padding: 2em 1em;
-    text-align: center;
-    color: white;
-}
-
-.feature_mobile_img:hover {
-    width: 200px;
-    height: 200px;
-    background-image: url('smartphone.png');
-    background-size: 200px 200px;
-}
-
-/* Koniec CSS do klasy features */
