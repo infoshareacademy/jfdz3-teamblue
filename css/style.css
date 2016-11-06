@@ -76,5 +76,46 @@ nav.top-menu ul li a:hover {
     background-image: url('smartphone.png');
     background-size: 200px 200px;
 }
-
 /* Koniec CSS do klasy features */
+
+div.team {
+    background-color: #B24622;
+    border: black solid 3px;
+    font-size: 2em;
+    text-align: center;
+
+}
+div.sylwia {
+    background-color: aliceblue;
+    border: brown solid 1px;
+    float: left;
+    width:24%;
+    height: 50%;
+
+}
+div.kajetan {
+    background-color: aliceblue;
+    border: brown solid 1px;
+    float: left;
+    width:24%;
+    height: 50%;
+
+}
+div.natalia {
+    background-color: aliceblue;
+    border: brown solid 1px;
+    float: left;
+    width:24%;
+    height: 50%;
+
+}
+
+div.olga {
+    background-color: aliceblue;
+    border: brown solid 1px;
+    float: left;
+    width:25%;
+    height: 50%;
+
+}
+
