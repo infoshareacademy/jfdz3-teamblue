@@ -41,7 +41,6 @@ nav.top-menu ul li a:hover {
     background-color: #75C7B5;
     color: #000000;
 }
-
 div.team {
     background-color: #B24622;
     border: black solid 3px;
@@ -82,6 +81,7 @@ div.olga {
     height: 50%;
 
 }
+
 /* CSS do klasy features */
 
 .features {
@@ -119,4 +119,3 @@ div.olga {
 }
 
 /* Koniec CSS do klasy features */
-
