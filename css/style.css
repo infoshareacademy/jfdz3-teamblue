@@ -119,3 +119,30 @@ div.olga {
 
 }
 
+.short_about{
+    width: auto;
+    min-height: 300px;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    padding-top: 50px;
+
+}
+
+h1.title-name {
+    font-size: 56px;
+    font-style: normal;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+h2.title-short {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-left: 250px;
+}
+
+
