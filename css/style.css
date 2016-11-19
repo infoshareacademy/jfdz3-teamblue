@@ -44,7 +44,7 @@ nav.top-menu ul li a:hover {
 div.conteiner {
     display: block;
     overflow: hidden;
-    background-color: #fff;
+    background-color: beige;
     width: 100%;
     border: black hidden 1px;
     font-family: Segoe UI Light, serif;
@@ -53,44 +53,52 @@ div.conteiner {
 }
 div.sylwia {
     background-color: aliceblue;
-    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px;
+    border-radius: 15px;
     float: left;
     margin-left: 2%;
-    width:24%;
+    margin-right: 1%;
+    width:23%;
     height: 50%;
 }
 
 div.kajetan {
     background-color: aliceblue;
-    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px;
+    border-radius: 15px;
     float: left;
-    width:24%;
+    margin-right: 1%;
+    width:23%;
     height: 50%;
 
 }
 div.natalia {
     background-color: aliceblue;
-    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px;
+    border-radius: 15px;
+    margin-right: 1%;
     float: left;
-    width:24%;
+    width:23%;
     height: 50%;
 
 }
 
 div.olga {
     background-color: aliceblue;
-    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px;
+    border-radius: 15px;
+    margin-right: 1%;
     float: left;
-    margin-right: auto;
-    width:24%;
+    width:23%;
     height: 50%;
 
 }
 div.conteiner > h1 {
-    font-size: xx-large;
+    font-size: 36px;
+    margin: 30px;
 }
 div.conteiner p {
-    margin: 1%  3% 3%;
+    margin: 15%  3% 10%;
 }
 div.conteiner img {
     border-radius: 100px;
