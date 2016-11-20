@@ -51,7 +51,6 @@ div.conteiner {
     border: black hidden 1px;
     font-family: Segoe UI Light, serif;
     text-align: center;
-
 }
 div.sylwia {
     background-color: aliceblue;
@@ -61,7 +60,7 @@ div.sylwia {
     margin-left: 2%;
     margin-right: 1%;
     width:23%;
-    height: 50%;
+    height:50%;
 }
 
 div.kajetan {
@@ -82,7 +81,6 @@ div.natalia {
     float: left;
     width:23%;
     height: 50%;
-
 }
 
 div.olga {
@@ -95,6 +93,7 @@ div.olga {
     height: 50%;
 
 }
+
 div.conteiner > h1 {
     font-size: 36px;
     margin: 30px;
@@ -110,5 +109,4 @@ div.conteiner img {
     border-radius: 100px;
     box-shadow: 0 1px 1px;
     margin: 2%;
-
 }
