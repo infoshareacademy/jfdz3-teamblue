@@ -126,6 +126,11 @@ section.short_about{
     max-height: 800px;
 
 }
+.background_image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 800px;}
 
 h1.title-name {
     font-size: 80px;
