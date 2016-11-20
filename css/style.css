@@ -127,14 +127,6 @@ section.short_about{
 
 }
 
-.background_image{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    max-height: 800px;
-
-
-}
 h1.title-name {
     font-size: 80px;
     font-family:Segoe UI Light, serif ;
