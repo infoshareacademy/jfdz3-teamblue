@@ -42,7 +42,27 @@ nav.top-menu ul li a:hover {
     color: #000000;
 }
 /* CSS do klasy features */
-
+/* sekcja o zaspole */
+div.conteiner {
+    display: block;
+    padding-bottom: 2%;
+    width: 100%;
+    overflow: hidden;
+    background-color: beige;
+    border: black hidden 1px;
+    font-family: Segoe UI Light, serif;
+    text-align: center;
+}
+div.sylwia {
+    background-color: aliceblue;
+    box-shadow: 0 1px 1px;
+    border-radius: 15px;
+    float: left;
+    margin-left: 2%;
+    margin-right: 1%;
+    width:23%;
+    height:50%;
+}
 .features {
     margin: 0 auto;
     font-family: 'Segoe UI', serif;
@@ -146,3 +166,51 @@ h2.title-short {
 }
 
 
+
+div.kajetan {
+    background-color: aliceblue;
+    box-shadow: 0 1px 1px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 1%;
+    width:23%;
+    height: 50%;
+
+}
+div.natalia {
+    background-color: aliceblue;
+    box-shadow: 0 1px 1px;
+    border-radius: 15px;
+    margin-right: 1%;
+    float: left;
+    width:23%;
+    height: 50%;
+}
+
+div.olga {
+    background-color: aliceblue;
+    box-shadow: 0 1px 1px;
+    border-radius: 15px;
+    margin-right: 1%;
+    float: left;
+    width:23%;
+    height: 50%;
+
+}
+
+div.conteiner > h1 {
+    font-size: 36px;
+    margin: 30px;
+}
+div.conteiner p {
+    margin: 15%  3% 10%;
+}
+div.conteiner img {
+    height: 100%;
+    max-height: 209px;
+    width: 100%;
+    max-width: 208px;
+    border-radius: 100px;
+    box-shadow: 0 1px 1px;
+    margin: 2%;
+}
