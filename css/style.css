@@ -159,30 +159,39 @@ div.olga {
 
 }
 
-.short_about{
-    width: auto;
-    min-height: 300px;
+section.short_about{
     display: block;
-    margin-top: 50px;
-    margin-bottom: 200px;
-    padding-top: 50px;
+    padding-top: 70px;
+    margin-top: auto;
+    max-height: 800px;
 
 }
+.background_image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 800px;}
 
 h1.title-name {
-    font-size: 56px;
-    font-style: normal;
+    font-size: 80px;
+    font-family:Segoe UI Light, serif ;
+    color: white;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 100px;
+    padding-right: 450px;
+    margin-top: 1px;
 
 }
 
 h2.title-short {
     font-size: 30px;
-    font-style: italic;
+    font-family:Segoe UI Light, serif ;
+    color: white;
     text-align: center;
-    padding-bottom: 40px;
-    padding-left: 250px;
+    padding-top: 1px;
+    padding-bottom: 100px;
+    padding-right: 450px;
+
 }
 
 
