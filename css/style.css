@@ -247,52 +247,69 @@ div.conteiner img {
 /* CSS do sekcji newsletter */
 
 .newsletter {
-    height: 100%;
-    background-image: url('newsletter_bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: 'Segoe UI', serif;
-    color: white;
+    position: relative;
     width: 100%;
     max-width: 2090px;
     margin: 0 auto;
+    height: auto;
+}
+
+.newsletter  img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 2090px;
 }
 
 .newsletter form {
-    padding: 20em;
-    margin: 0 auto;
-    height: 300px;
-    width: 800px;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 70%;
+    bottom: 50%;
 }
 
 .newsletter input {
-    margin: 0 auto;
-    height: 44px;
+    height: 1.6em;
+    display: inline-block;
+    width: 60%;
 }
 
 .newsletter h1 {
-    margin: 0 auto;
     text-align: center;
+    color: white;
+    font-family: 'Segoe UI', serif;
+    font-size: 2.5em;
 }
 
 .newsletter input#submit {
     font-family: 'Segoe UI', serif;
-    font-size: 2em;
+    font-size: 1.6em;
     background-color: black;
-    border: none;
+    border: 3px solid white;
     color: white;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
+    padding: 0.2em;
     width: auto;
     height: auto;
+    outline: none;
 }
+
 
 .newsletter input#email {
     font-family: 'Segoe UI', serif;
-    font-size: 2em;
-    width: 600px;
+    font-size: 1.6em;
+    border: 3px solid #75C7B5;
+
+}
+
+.newsletter input#email:focus {
+    box-shadow: 0 0 15px #FF8156;
+    border: 3px solid #FF8156;
+    outline: none;
 }
 
 /* Koniec CSS do sekcji newsletter */
