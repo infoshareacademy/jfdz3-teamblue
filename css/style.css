@@ -20,7 +20,7 @@ img.logo {
 div.phonenumber {
     font-weight: bold;
     margin-top: 65px;
-    
+
 }
 
 div.phonenumber i a{
@@ -44,7 +44,7 @@ header{
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #FF0069;
-  
+
 }
 
 .navbar-custom {
@@ -104,15 +104,15 @@ ul.dropdown-menu > li > a:hover {
         margin:0;
         margin-top: 60px;
         padding: 0;
-	
+
     }
-    
- 
+
+
     #custom-search-form .search-query {
-        
+
 	padding: 4px 5px 4px 5px;
         /* IE7-8 doesn't have border-radius, so don't indent the padding */
- 
+
         margin-bottom: 0;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -122,9 +122,9 @@ ul.dropdown-menu > li > a:hover {
 	-moz-transition:width  0.2s ease-in-out;
 	-o-transition: width  0.2s ease-in-out;
 	transition: width  0.2s ease-in-out;
-	
+
     }
-    
+
     @media screen and (min-width: 769px) and (max-width: 992px){
 	#custom-search-form .search-query{
 	    margin-left: 5%;
@@ -133,14 +133,14 @@ ul.dropdown-menu > li > a:hover {
 	    padding-bottom: 5%;
 	}
 	div.phonenumber {
-	    
+
 	    margin-top: 25px;
-	    
+
 	}
-	
-	
+
+
     }
-    
+
     @media screen and (max-width: 768px){
 	#custom-search-form .search-query{
 	    margin-left: 5%;
@@ -149,14 +149,14 @@ ul.dropdown-menu > li > a:hover {
 	    padding-bottom: 5%;
 	}
 	div.phonenumber {
-	    
+
 	    margin-top: 25px;
-	    
+
 	}
 
 
 
-	
+
     }
 
 @media screen and (min-width: 993px) and (max-width: 1199px) {
@@ -181,169 +181,37 @@ ul.dropdown-menu > li > a:hover {
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
         border-radius: 3px;
-	
+
     }
- 
+
     .search-query:focus + button {
-        z-index: 3;   
-    }   
+        z-index: 3;
+    }
     .search-query:focus{
         width: 200px;
     }
 /* sekcja o zaspole */
-div.conteiner {
+div.container {
     display: block;
     padding-bottom: 2%;
     width: 100%;
     overflow: hidden;
-    background-color: beige;
+    background-color: white;
     border: black hidden 1px;
-    font-family: Segoe UI Light, serif;
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
     text-align: center;
 }
 div.sylwia {
-    background-color: aliceblue;
+    background-color:aliceblue  ;
     box-shadow: 0 1px 1px;
     border-radius: 15px;
     float: left;
     margin-left: 2%;
     margin-right: 1%;
     width:23%;
-    height:50%;
+    height:100%;
+    min-height:550px ;
 }
-
-/* CSS do klasy features */
-
-.features {
-    font-family: 'Segoe UI', serif;
-    padding: 3em 0;
-}
-
-.features_container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 2em auto;
-    max-width: 1200px;
-}
-
-.features span {
-    color: black;
-    text-align: center;
-    font-size: 4em;
-    display: block;
-    padding: 1.5em 0;
-}
-
-.features h1 {
-    text-align: center;
-    position: absolute;
-    bottom: 1.8em;
-    padding: 0 1em;
-    color: white;
-}
-
-.feature_mobile, .feature_wcag, .feature_search, .feature_security {
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
-    width: 200px;
-    height: 200px;
-    background-color: #FF8156;
-    border-radius: 50%;
-}
-
-.features_container img {
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    filter: opacity(60%);
-}
-
-/* Koniec CSS do klasy features */
-
-div.team {
-    background-color: #B24622;
-    border: black solid 3px;
-    font-size: 2em;
-    text-align: center;
-
-}
-div.sylwia {
-    background-color: aliceblue;
-    border: brown solid 1px;
-    float: left;
-    width:24%;
-    height: 50%;
-
-}
-div.kajetan {
-    background-color: aliceblue;
-    border: brown solid 1px;
-    float: left;
-    width:24%;
-    height: 50%;
-
-}
-div.natalia {
-    background-color: aliceblue;
-    border: brown solid 1px;
-    float: left;
-    width:24%;
-    height: 50%;
-
-}
-
-div.olga {
-    background-color: aliceblue;
-    border: brown solid 1px;
-    float: left;
-    width:25%;
-    height: 50%;
-
-}
-
-section.short_about{
-    display: block;
-    
-    margin-top: auto;
-    max-height: 800px;
-
-}
-.background_image{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    max-height: 800px;}
-
-h1.title-name {
-    font-size: 80px;
-    font-family:Segoe UI Light, serif ;
-    color: white;
-    text-align: center;
-    padding-top: 100px;
-    padding-right: 450px;
-    margin-top: 1px;
-
-}
-
-h2.title-short {
-    font-size: 30px;
-    font-family:Segoe UI Light, serif ;
-    color: white;
-    text-align: center;
-    padding-top: 1px;
-    padding-bottom: 100px;
-    padding-right: 450px;
-
-}
-
-
 
 div.kajetan {
     background-color: aliceblue;
@@ -352,17 +220,18 @@ div.kajetan {
     float: left;
     margin-right: 1%;
     width:23%;
-    height: 50%;
-
+    height:100%;
+    min-height:550px;
 }
 div.natalia {
-    background-color: aliceblue;
+    background-color:aliceblue;
     box-shadow: 0 1px 1px;
     border-radius: 15px;
     margin-right: 1%;
     float: left;
     width:23%;
-    height: 50%;
+    height:100%;
+    min-height:550px;
 }
 
 div.olga {
@@ -372,18 +241,22 @@ div.olga {
     margin-right: 1%;
     float: left;
     width:23%;
-    height: 50%;
-
+    height:100%;
+    min-height:550px;
 }
 
-div.conteiner > h1 {
+div.container > h1 {
     font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
     margin: 30px;
 }
-div.conteiner p {
+div.container p {
     margin: 15%  3% 10%;
+    font-style: normal;
+    font-weight: bold;
 }
-div.conteiner img {
+div.container img {
     height: 100%;
     max-height: 209px;
     width: 100%;
