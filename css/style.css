@@ -153,6 +153,16 @@ ul.dropdown-menu > li > a:hover {
 	    margin-top: 25px;
 
 	}
+        .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+            color: #ffffff;
+        }
+
+        .navbar-default .navbar-nav>.open>a,
+        .navbar-default .navbar-nav>.open>a:focus,
+        .navbar-default .navbar-nav>.open>a:hover {
+            background-color: #1CBBB4;
+            color: #000000;
+        }
 
 
 
