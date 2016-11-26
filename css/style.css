@@ -80,15 +80,15 @@ div.sylwia {
     max-width: 1200px;
 }
 
-.features span {
+.features h1 {
+    font-size: 5em;
     color: black;
     text-align: center;
-    font-size: 4em;
-    display: block;
     padding: 1.5em 0;
 }
 
-.features h1 {
+.features h2 {
+    font-size: 3em;
     text-align: center;
     position: absolute;
     bottom: 1.8em;
@@ -102,7 +102,7 @@ div.sylwia {
     text-align: center;
     width: 200px;
     height: 200px;
-    background-color: #FF8156;
+    background-color: #B02D00;
     border-radius: 50%;
 }
 
@@ -113,7 +113,7 @@ div.sylwia {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 50%;
-    filter: opacity(60%);
+    filter: opacity(45%);
 }
 
 /* Koniec CSS do klasy features */
