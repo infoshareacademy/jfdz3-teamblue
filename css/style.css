@@ -151,11 +151,22 @@ ul.dropdown-menu > li > a:hover {
 	    margin-top: 25px;
 	    
 	}
-	
+
+
+
 	
     }
- 
-    #custom-search-form button {
+
+@media screen and (min-width: 993px) and (max-width: 1199px) {
+
+    .span12 {
+        width: 220px;
+    }
+
+}
+
+
+#custom-search-form button {
         border: 0;
         background: none;
         /** belows styles are working good */
@@ -384,7 +395,7 @@ div.conteiner img {
 
 .newsletter {
     height: 100%;
-    background-image: url('newsletter_bg.jpg');
+    background-image: url("../newsletter_bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
