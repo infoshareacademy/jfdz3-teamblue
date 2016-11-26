@@ -383,19 +383,19 @@ div.conteiner img {
     text-align: center;
     table-layout: auto; width: 100%;
     padding-bottom: 5%;
-    font-family: 'Segoe UI', serif;
+    font-family: "Helvetica Neue","Helvetica,Arial",sans-serif;
     font-size: 1.5em;
     margin-top: 5%
 }
 .tabela {
-    background-color: paleturquoise;
-    font-family: 'Segoe UI', serif;
-    border: 1px solid paleturquoise;
+    background-color: #91d6d3;
+    font-family: "Helvetica Neue","Helvetica,Arial",sans-serif;
+    border: 1px solid #91d6d3;
     border-collapse: collapse;
     table-layout: fixed; width: 100%
 }
 .tabela td {
-    border: 3px solid paleturquoise;
+    border: 3px solid #91d6d3;
     padding-top: 1%;
     padding-bottom: 1%;
 }
@@ -405,7 +405,7 @@ div.conteiner img {
 
 .footer {
     background: #FF0069;
-    font-family: 'Segoe UI', serif;
+    font-family: "Helvetica Neue","Helvetica,Arial",sans-serif;
     color: white;
     text-align: center;
     padding-top: 1.5%;
