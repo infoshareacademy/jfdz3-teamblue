@@ -2,45 +2,181 @@ body {
     background-color: #ffffff;
 }
 
+/* sekcja header */
+.headerdiv{
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
 img.logo {
-    position: absolute;
-    left: 50%;
-    margin-left: -570px;
-    height: 70px;
+    max-height: 140px;
+    height: 100%;
+    margin: 0px auto;
 }
 
-nav.top-menu {
-    padding: 5px 0 0 0;
-    position: absolute;
-    left: 50%;
-    margin-left: -370px;
+div.phonenumber {
+    font-weight: bold;
+    margin-top: 65px;
+    
 }
 
-nav.top-menu ul {
-    list-style: none;
-    overflow: hidden;
-    margin: auto;
+div.phonenumber i a{
+    vertical-align: top;
 }
 
-nav.top-menu ul li {
-    float: left;
-    text-decoration: none;
-    font-size: 25px;
-}
-
-nav.top-menu ul li a {
-    padding: 15px 10px 15px 5px;
-    display: block;
-    width: auto;
-    overflow: hidden;
-    text-decoration: none;
-    color: #B24622;
-}
-
-nav.top-menu ul li a:hover {
-    background-color: #75C7B5;
+.fa-phone a {
     color: #000000;
+    margin-left: 1em;
+    font-size: 18px;
 }
+
+header{
+    margin-top: 20px;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #FF0069;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #FF0069;
+  
+}
+
+.navbar-custom {
+    background-color:#1CBBB4;
+    border: none;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 1.75em;
+    text-transform: uppercase;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+    color: #000000
+}
+
+ul.dropdown-menu > li > a {
+    color: #ffffff;
+    font-weight: bold;
+    padding: 1.5em 1.7em;
+    text-transform: uppercase;
+}
+
+
+ul.dropdown-menu > li > a:hover {
+    background: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-menu {
+    background-color: #1CBBB4;
+    border: none;
+}
+
+
+
+    #custom-search-form {
+        margin:0;
+        margin-top: 60px;
+        padding: 0;
+	
+    }
+    
+ 
+    #custom-search-form .search-query {
+        
+	padding: 4px 5px 4px 5px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+	border: 1px solid #8e8e8e;
+        -webkit-transition: width  0.2s ease-in-out;
+	-moz-transition:width  0.2s ease-in-out;
+	-o-transition: width  0.2s ease-in-out;
+	transition: width  0.2s ease-in-out;
+	
+    }
+    
+    @media screen and (min-width: 769px) and (max-width: 992px){
+	#custom-search-form .search-query{
+	    margin-left: 5%;
+	}
+	div.container{
+	    padding-bottom: 5%;
+	}
+	div.phonenumber {
+	    
+	    margin-top: 25px;
+	    
+	}
+	
+	
+    }
+    
+    @media screen and (max-width: 768px){
+	#custom-search-form .search-query{
+	    margin-left: 5%;
+	}
+	div.container{
+	    padding-bottom: 5%;
+	}
+	div.phonenumber {
+	    
+	    margin-top: 25px;
+	    
+	}
+	
+	
+    }
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+	
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }   
+    .search-query:focus{
+        width: 200px;
+    }
 /* sekcja o zaspole */
 div.conteiner {
     display: block;
@@ -161,7 +297,7 @@ div.olga {
 
 section.short_about{
     display: block;
-    padding-top: 70px;
+    
     margin-top: auto;
     max-height: 800px;
 
