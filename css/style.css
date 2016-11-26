@@ -41,6 +41,7 @@ nav.top-menu ul li a:hover {
     background-color: #75C7B5;
     color: #000000;
 }
+/* CSS do klasy features */
 /* sekcja o zaspole */
 div.conteiner {
     display: block;
@@ -115,7 +116,6 @@ div.sylwia {
     border-radius: 50%;
     filter: opacity(60%);
 }
-
 /* Koniec CSS do klasy features */
 
 div.team {
@@ -242,6 +242,48 @@ div.conteiner img {
     border-radius: 100px;
     box-shadow: 0 1px 1px;
     margin: 2%;
+}
+.more_about {
+    text-align: center;
+    table-layout: auto; width: 100%;
+    padding-bottom: 5%;
+    font-family: 'Segoe UI', serif;
+    font-size: 1em;
+    margin-top: 5%
+}
+
+.tabela {
+    background-color: bisque;
+    font-family: 'Segoe UI', serif;
+    border: 1px solid antiquewhite;
+    border-collapse: collapse;
+    table-layout: fixed; width: 100%
+}
+.tabela td {
+    border: 3px solid antiquewhite;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.light-table {
+    background-color: antiquewhite;
+}
+
+.footer {
+    background: #FF8156;
+    font-family: 'Segoe UI', serif;
+    color: white;
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 3%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.img-circle {
+    border-radius: 50%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 5%;
 }
 
 /* CSS do sekcji newsletter */
