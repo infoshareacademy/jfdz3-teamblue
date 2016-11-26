@@ -14,13 +14,13 @@ body {
 img.logo {
     max-height: 140px;
     height: 100%;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 div.phonenumber {
     font-weight: bold;
     margin-top: 65px;
-
+    
 }
 
 div.phonenumber i a{
@@ -38,13 +38,13 @@ header{
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #FF0069;
+	border-color: #FF0069;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #FF0069;
-
+  background-color: #FF0069;
+  
 }
 
 .navbar-custom {
@@ -53,13 +53,13 @@ header{
 }
 
 .navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-    vertical-align: top;
+  display: inline-block;
+  float: none;
+  vertical-align: top;
 }
 
 .navbar .navbar-collapse {
-    text-align: center;
+  text-align: center;
 }
 
 .navbar-custom .navbar-nav > li > a {
@@ -98,85 +98,85 @@ ul.dropdown-menu > li > a:hover {
 
 
 
-#custom-search-form {
-    margin:0;
-    margin-top: 60px;
-    padding: 0;
-
-}
-
-
-#custom-search-form .search-query {
-
-    padding: 4px 5px 4px 5px;
-    /* IE7-8 doesn't have border-radius, so don't indent the padding */
-
-    margin-bottom: 0;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    border: 1px solid #8e8e8e;
-    -webkit-transition: width  0.2s ease-in-out;
-    -moz-transition:width  0.2s ease-in-out;
-    -o-transition: width  0.2s ease-in-out;
-    transition: width  0.2s ease-in-out;
-
-}
-
-@media screen and (min-width: 769px) and (max-width: 992px){
-    #custom-search-form .search-query{
-        margin-left: 5%;
+    #custom-search-form {
+        margin:0;
+        margin-top: 60px;
+        padding: 0;
+	
     }
-    div.container{
-        padding-bottom: 5%;
+    
+ 
+    #custom-search-form .search-query {
+        
+	padding: 4px 5px 4px 5px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+	border: 1px solid #8e8e8e;
+        -webkit-transition: width  0.2s ease-in-out;
+	-moz-transition:width  0.2s ease-in-out;
+	-o-transition: width  0.2s ease-in-out;
+	transition: width  0.2s ease-in-out;
+	
     }
-    div.phonenumber {
-
-        margin-top: 25px;
-
+    
+    @media screen and (min-width: 769px) and (max-width: 992px){
+	#custom-search-form .search-query{
+	    margin-left: 5%;
+	}
+	div.container{
+	    padding-bottom: 5%;
+	}
+	div.phonenumber {
+	    
+	    margin-top: 25px;
+	    
+	}
+	
+	
     }
-
-
-}
-
-@media screen and (max-width: 768px){
-    #custom-search-form .search-query{
-        margin-left: 5%;
+    
+    @media screen and (max-width: 768px){
+	#custom-search-form .search-query{
+	    margin-left: 5%;
+	}
+	div.container{
+	    padding-bottom: 5%;
+	}
+	div.phonenumber {
+	    
+	    margin-top: 25px;
+	    
+	}
+	
+	
     }
-    div.container{
-        padding-bottom: 5%;
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+	
     }
-    div.phonenumber {
-
-        margin-top: 25px;
-
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }   
+    .search-query:focus{
+        width: 200px;
     }
-
-
-}
-
-#custom-search-form button {
-    border: 0;
-    background: none;
-    /** belows styles are working good */
-    padding: 2px 5px;
-    margin-top: 2px;
-    position: relative;
-    left: -28px;
-    /* IE7-8 doesn't have border-radius, so don't indent the padding */
-    margin-bottom: 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-
-}
-
-.search-query:focus + button {
-    z-index: 3;
-}
-.search-query:focus{
-    width: 200px;
-}
 /* sekcja o zaspole */
 div.conteiner {
     display: block;
@@ -297,7 +297,7 @@ div.olga {
 
 section.short_about{
     display: block;
-    padding-top: 70px;
+    
     margin-top: auto;
     max-height: 800px;
 
