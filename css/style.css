@@ -11,11 +11,11 @@ div.container {
     overflow: hidden;
     background-color: white;
     border: black hidden 1px;
-    font-family: Segoe UI Light, serif;
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
     text-align: center;
 }
 div.sylwia {
-    background-color: aliceblue;
+    background-color:aliceblue  ;
     box-shadow: 0 1px 1px;
     border-radius: 15px;
     float: left;
