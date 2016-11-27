@@ -561,4 +561,26 @@ div.sylwiabox img {
     outline: none;
 }
 
+@media screen and (max-width: 992px) {
+
+    .newsletter form {
+        width: 100%;
+        padding: 0;
+        bottom: 20vw;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .newsletter form {
+        width: 100%;
+        padding: 0 2%;
+        bottom: 5vw;
+    }
+
+    .newsletter h1 {
+        font-size: 2.2em;
+    }
+}
+
 /* Koniec CSS do sekcji newsletter */
