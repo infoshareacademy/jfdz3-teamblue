@@ -208,25 +208,26 @@ ul.dropdown-menu > li > a:hover {
         width: 200px;
     }
 /* sekcja o zaspole */
-div.conteiner {
+div.container {
     display: block;
     padding-bottom: 2%;
     width: 100%;
     overflow: hidden;
-    background-color: beige;
+    background-color: white;
     border: black hidden 1px;
-    font-family: Segoe UI Light, serif;
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
     text-align: center;
 }
 div.sylwia {
-    background-color: aliceblue;
+    background-color:aliceblue  ;
     box-shadow: 0 1px 1px;
     border-radius: 15px;
     float: left;
     margin-left: 2%;
     margin-right: 1%;
     width:23%;
-    height:50%;
+    height:100%;
+    min-height:550px ;
 }
 
 /* CSS do klasy features */
@@ -284,46 +285,7 @@ div.sylwia {
 
 /* Koniec CSS do klasy features */
 
-div.team {
-    background-color: #B24622;
-    border: black solid 3px;
-    font-size: 2em;
-    text-align: center;
 
-}
-div.sylwia {
-    background-color: aliceblue;
-    border: brown solid 1px;
-    float: left;
-    width:24%;
-    height: 50%;
-
-}
-div.kajetan {
-    background-color: aliceblue;
-    border: brown solid 1px;
-    float: left;
-    width:24%;
-    height: 50%;
-
-}
-div.natalia {
-    background-color: aliceblue;
-    border: brown solid 1px;
-    float: left;
-    width:24%;
-    height: 50%;
-
-}
-
-div.olga {
-    background-color: aliceblue;
-    border: brown solid 1px;
-    float: left;
-    width:25%;
-    height: 50%;
-
-}
 
 section.short_about{
     display: block;
@@ -371,19 +333,19 @@ div.kajetan {
     float: left;
     margin-right: 1%;
     width:23%;
-    height: 50%;
-
+    height:100%;
+    min-height:550px;
 }
 div.natalia {
-    background-color: aliceblue;
+    background-color:aliceblue;
     box-shadow: 0 1px 1px;
     border-radius: 15px;
     margin-right: 1%;
     float: left;
     width:23%;
-    height: 50%;
+    height:100%;
+    min-height:550px;
 }
-
 div.olga {
     background-color: aliceblue;
     box-shadow: 0 1px 1px;
@@ -391,18 +353,22 @@ div.olga {
     margin-right: 1%;
     float: left;
     width:23%;
-    height: 50%;
-
+    height:100%;
+    min-height:550px;
 }
 
-div.conteiner > h1 {
+div.container > h1 {
     font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
     margin: 30px;
 }
-div.conteiner p {
+div.container p {
     margin: 15%  3% 10%;
+    font-style: normal;
+    font-weight: bold;
 }
-div.conteiner img {
+div.container img {
     height: 100%;
     max-height: 209px;
     width: 100%;
