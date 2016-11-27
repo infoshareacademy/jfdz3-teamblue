@@ -297,6 +297,14 @@ div.sylwia {
     filter: opacity(22%);
 }
 
+@media screen and (max-width: 992px) {
+
+    .feature_mobile, .feature_wcag, .feature_search, .feature_security {
+        margin: 5%;
+    }
+
+}
+
 
 /* Koniec CSS do klasy features */
 
