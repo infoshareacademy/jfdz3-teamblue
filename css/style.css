@@ -460,6 +460,7 @@ div.sylwiabox img {
     font-weight: bold;
     margin: 30px;
     padding-bottom: 5%;
+    display: block;
 }
 .tabela {
     background-color: #91d6d3;
