@@ -19,7 +19,7 @@ section.short_about{
 
 h1.title-name {
     font-size: 80px;
-    font-family:Segoe UI Light, serif ;
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
     color: white;
     text-align: center;
     padding-top: 100px;
@@ -29,8 +29,8 @@ h1.title-name {
 }
 
 h2.title-short {
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 30px;
-    font-family:Segoe UI Light, serif ;
     color: white;
     text-align: center;
     padding-top: 1px;
