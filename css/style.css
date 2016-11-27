@@ -383,11 +383,15 @@ div.sylwiabox img {
     padding-bottom: 5%;
     font-family: "Helvetica Neue","Helvetica,Arial",sans-serif;
     font-size: 1.5em;
-    margin-top: 5%
+    margin-top: 8%
 }
 
 .more_about span {
-    font-size: 2em;  padding: 1em;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
+    margin: 30px;
+    padding-bottom: 5%;
 }
 .tabela {
     background-color: #91d6d3;
