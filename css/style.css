@@ -233,6 +233,7 @@ div.sylwia {
 .features {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     padding: 4em 0;
+    margin-bottom: 20em;
 }
 
 .features_container {
@@ -250,6 +251,8 @@ div.sylwia {
     text-align: center;
     font-size: 4em;
     padding: 1.5em 0;
+    font-weight: bold;
+    margin-left: 0.15em;
 }
 
 .features h2 {
@@ -268,7 +271,7 @@ div.sylwia {
     position: absolute;
     color: white;
     bottom: 1.3em;
-    left: 3.5em;
+    left: 3.3em;
     text-shadow: rgb(199, 197, 197) 2px 1px 10px;
     font-weight: 100;
 }
