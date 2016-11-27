@@ -88,11 +88,6 @@ ul.dropdown-menu > li > a:hover {
     background: none;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-}
-
 .dropdown-menu {
     background-color: #1CBBB4;
     border: none;
@@ -153,8 +148,16 @@ ul.dropdown-menu > li > a:hover {
 	    margin-top: 25px;
 
 	}
+        .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+            color: #ffffff;
+        }
 
-
+        .navbar-default .navbar-nav>.open>a,
+        .navbar-default .navbar-nav>.open>a:focus,
+        .navbar-default .navbar-nav>.open>a:hover {
+            background-color: #1CBBB4;
+            color: #000000;
+        }
 
 
     }
@@ -165,6 +168,20 @@ ul.dropdown-menu > li > a:hover {
         width: 220px;
     }
 
+}
+
+@media screen and (min-width: 769px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+
+    .navbar-default .navbar-nav>.open>a,
+    .navbar-default .navbar-nav>.open>a:focus,
+    .navbar-default .navbar-nav>.open>a:hover {
+        background-color: #1CBBB4;
+        color: #000000;
+    }
 }
 
 
