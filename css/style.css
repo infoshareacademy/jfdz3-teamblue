@@ -284,7 +284,9 @@ div.sylwia {
     height: 15em;
     background-color: #217f7b;
     border-radius: 50%;
-    box-shadow: 0 0 53px 6px rgba(150, 48, 90,0.5);
+    box-shadow: 0 0 53px 6px rgba(150, 48, 90,0.7);
+    border: 0.5em solid white;
+    overflow: hidden;
 }
 
 .features_container img {
