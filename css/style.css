@@ -384,13 +384,13 @@ div.conteiner img {
 
 .newsletter {
     position: relative;
+    margin: 0 auto;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     width: 100%;
     max-width: 2090px;
-    margin: 0 auto;
-    height: auto;
 }
 
-.newsletter  img{
+.newsletter img{
     display: block;
     margin: 0 auto;
     width: 100%;
@@ -404,7 +404,7 @@ div.conteiner img {
     padding-left: 15%;
     padding-right: 15%;
     width: 70%;
-    bottom: 50%;
+    bottom: 27vw;
 }
 
 .newsletter input {
@@ -416,12 +416,10 @@ div.conteiner img {
 .newsletter h1 {
     text-align: center;
     color: white;
-    font-family: 'Segoe UI', serif;
     font-size: 2.5em;
 }
 
 .newsletter input#submit {
-    font-family: 'Segoe UI', serif;
     font-size: 1.6em;
     background-color: black;
     border: 3px solid white;
@@ -434,17 +432,14 @@ div.conteiner img {
     outline: none;
 }
 
-
 .newsletter input#email {
-    font-family: 'Segoe UI', serif;
     font-size: 1.6em;
-    border: 3px solid #75C7B5;
-
+    border: 3px solid #91d6d3 ;
 }
 
 .newsletter input#email:focus {
-    box-shadow: 0 0 15px #FF8156;
-    border: 3px solid #FF8156;
+    box-shadow: 0 0 15px #FF0069 ;
+    border: 3px solid #FF0069 ;
     outline: none;
 }
 
