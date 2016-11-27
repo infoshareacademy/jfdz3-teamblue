@@ -400,6 +400,10 @@ div.conteiner img {
     font-size: 1.5em;
     margin-top: 5%
 }
+
+.more_about span {
+    font-size: 2em;  padding: 1em;
+}
 .tabela {
     background-color: #91d6d3;
     font-family: "Helvetica Neue","Helvetica,Arial",sans-serif;
@@ -421,10 +425,13 @@ div.conteiner img {
     font-family: "Helvetica Neue","Helvetica,Arial",sans-serif;
     color: white;
     text-align: center;
-    padding-top: 1.5%;
-    padding-bottom: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     margin-top: 1%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+}
+.footer span{
+    font-size: 1.5em;
 }
 .img-circle {
     border-radius: 50%;
