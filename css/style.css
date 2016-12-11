@@ -20,7 +20,7 @@ img.logo {
 div.phonenumber {
     font-weight: bold;
     margin-top: 65px;
-
+    
 }
 
 div.phonenumber i a{
@@ -44,7 +44,7 @@ header{
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #FF0069;
-
+  
 }
 
 .navbar-custom {
@@ -88,31 +88,24 @@ ul.dropdown-menu > li > a:hover {
     background: none;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-}
-
 .dropdown-menu {
     background-color: #1CBBB4;
     border: none;
 }
 
-
-
     #custom-search-form {
         margin:0;
         margin-top: 60px;
         padding: 0;
-
+	
     }
-
-
+    
+ 
     #custom-search-form .search-query {
-
+        
 	padding: 4px 5px 4px 5px;
         /* IE7-8 doesn't have border-radius, so don't indent the padding */
-
+ 
         margin-bottom: 0;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -122,9 +115,9 @@ ul.dropdown-menu > li > a:hover {
 	-moz-transition:width  0.2s ease-in-out;
 	-o-transition: width  0.2s ease-in-out;
 	transition: width  0.2s ease-in-out;
-
+	
     }
-
+    
     @media screen and (min-width: 769px) and (max-width: 992px){
 	#custom-search-form .search-query{
 	    margin-left: 5%;
@@ -133,14 +126,14 @@ ul.dropdown-menu > li > a:hover {
 	    padding-bottom: 5%;
 	}
 	div.phonenumber {
-
+	    
 	    margin-top: 25px;
-
+	    
 	}
-
-
+	
+	
     }
-
+    
     @media screen and (max-width: 768px){
 	#custom-search-form .search-query{
 	    margin-left: 5%;
@@ -149,14 +142,22 @@ ul.dropdown-menu > li > a:hover {
 	    padding-bottom: 5%;
 	}
 	div.phonenumber {
-
+	    
 	    margin-top: 25px;
-
+	    
 	}
+        .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+            color: #ffffff;
+        }
 
+        .navbar-default .navbar-nav>.open>a,
+        .navbar-default .navbar-nav>.open>a:focus,
+        .navbar-default .navbar-nav>.open>a:hover {
+            background-color: #1CBBB4;
+            color: #000000;
+        }
 
-
-
+	
     }
 
 @media screen and (min-width: 993px) and (max-width: 1199px) {
@@ -165,6 +166,20 @@ ul.dropdown-menu > li > a:hover {
         width: 220px;
     }
 
+}
+
+@media screen and (min-width: 769px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+
+    .navbar-default .navbar-nav>.open>a,
+    .navbar-default .navbar-nav>.open>a:focus,
+    .navbar-default .navbar-nav>.open>a:hover {
+        background-color: #1CBBB4;
+        color: #000000;
+    }
 }
 
 
@@ -181,12 +196,12 @@ ul.dropdown-menu > li > a:hover {
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
         border-radius: 3px;
-
+	
     }
-
+ 
     .search-query:focus + button {
-        z-index: 3;
-    }
+        z-index: 3;   
+    }   
     .search-query:focus{
         width: 200px;
     }
@@ -213,6 +228,172 @@ div.sylwia {
     min-height:550px ;
 }
 
+/* CSS do klasy features */
+
+.features {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 4em 0;
+    margin-bottom: 20em;
+}
+
+.features_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2em auto;
+    max-width: 1200px;
+}
+
+.features h1 {
+    color: black;
+    text-align: center;
+    font-size: 4em;
+    padding: 1.5em 0;
+    font-weight: bold;
+    margin-left: 0.15em;
+}
+
+.features h2 {
+    font-size: 1.8em;
+    text-align: center;
+    position: absolute;
+    bottom: 2.3em;
+    color: white;
+    text-shadow: rgb(199, 197, 197) 2px 1px 10px;
+    font-weight: 100;
+}
+
+.features i {
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+    color: white;
+    bottom: 1.3em;
+    left: 3.3em;
+    text-shadow: rgb(199, 197, 197) 2px 1px 10px;
+    font-weight: 100;
+}
+.features > h1::first-letter {
+    font-size: 150%;
+    color: #FF0069;
+}
+
+.feature_mobile, .feature_wcag, .feature_search, .feature_security {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    width: 15em;
+    height: 15em;
+    background-color: #217f7b;
+    border-radius: 50%;
+    box-shadow: 0 0 53px 6px rgba(150, 48, 90,0.7);
+    border: 0.5em solid white;
+    overflow: hidden;
+}
+
+.features_container img {
+    width: 15em;
+    height: 15em;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    filter: opacity(22%);
+}
+
+@media screen and (max-width: 992px) {
+
+    .feature_mobile, .feature_wcag, .feature_search, .feature_security {
+        margin: 5%;
+    }
+
+}
+
+
+/* Koniec CSS do klasy features */
+
+div.team {
+    background-color: #B24622;
+    border: black solid 3px;
+    font-size: 2em;
+    text-align: center;
+
+}
+div.sylwia {
+    background-color: aliceblue;
+    border: brown solid 1px;
+    float: left;
+    width:24%;
+    height: 50%;
+
+}
+div.kajetan {
+    background-color: aliceblue;
+    border: brown solid 1px;
+    float: left;
+    width:24%;
+    height: 50%;
+
+}
+div.natalia {
+    background-color: aliceblue;
+    border: brown solid 1px;
+    float: left;
+    width:24%;
+    height: 50%;
+
+}
+
+div.olga {
+    background-color: aliceblue;
+    border: brown solid 1px;
+    float: left;
+    width:25%;
+    height: 50%;
+
+}
+
+section.short_about{
+    display: block;
+    padding-top: 70px;
+    margin-top: auto;
+    max-height: 800px;
+
+}
+.background_image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    max-height: 415px;
+}
+
+h1.title-name {
+    font-size: 80px;
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 450px;
+    margin-top: 1px;
+
+}
+
+h2.title-short {
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 100px;
+    padding-right: 450px;
+
+}
+
+
+
 div.kajetan {
     background-color: aliceblue;
     box-shadow: 0 1px 1px;
@@ -233,7 +414,6 @@ div.natalia {
     height:100%;
     min-height:550px;
 }
-
 div.olga {
     background-color: aliceblue;
     box-shadow: 0 1px 1px;
@@ -245,18 +425,18 @@ div.olga {
     min-height:550px;
 }
 
-div.container > h1 {
+div.sylwiabox > h1 {
     font-size: 36px;
     font-style: normal;
     font-weight: bold;
     margin: 30px;
 }
-div.container p {
+div.sylwiabox p {
     margin: 15%  3% 10%;
     font-style: normal;
     font-weight: bold;
 }
-div.container img {
+div.sylwiabox img {
     height: 100%;
     max-height: 209px;
     width: 100%;
@@ -265,56 +445,142 @@ div.container img {
     box-shadow: 0 1px 1px;
     margin: 2%;
 }
+.more_about {
+    text-align: center;
+    table-layout: auto; width: 100%;
+    padding-bottom: 5%;
+    font-family: "Helvetica Neue","Helvetica,Arial",sans-serif;
+    font-size: 1.5em;
+    margin-top: 8%
+}
+
+.more_about span {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
+    margin: 30px;
+    padding-bottom: 5%;
+}
+.tabela {
+    background-color: #91d6d3;
+    font-family: "Helvetica Neue","Helvetica,Arial",sans-serif;
+    border: 1px solid #91d6d3;
+    border-collapse: collapse;
+    table-layout: fixed; width: 100%
+}
+.tabela td {
+    border: 3px solid #91d6d3;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.light-table {
+    background-color: white;
+}
+
+.footer {
+    background: #FF0069;
+    font-family: "Helvetica Neue","Helvetica,Arial",sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+.footer span{
+    font-size: 1.5em;
+}
+.img-circle {
+    border-radius: 50%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
 
 /* CSS do sekcji newsletter */
 
 .newsletter {
-    height: 100%;
-    background-image: url("../newsletter_bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: 'Segoe UI', serif;
-    color: white;
+    position: relative;
+    margin: 0 auto;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     width: 100%;
     max-width: 2090px;
+}
+
+.newsletter img{
+    display: block;
     margin: 0 auto;
+    width: 100%;
+    max-width: 2090px;
 }
 
 .newsletter form {
-    padding: 20em;
-    margin: 0 auto;
-    height: 300px;
-    width: 800px;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    bottom: 28vw;
 }
 
 .newsletter input {
-    margin: 0 auto;
-    height: 44px;
+    height: 2em;
+    display: inline-block;
+    width: 60%;
 }
 
 .newsletter h1 {
-    margin: 0 auto;
     text-align: center;
+    color: white;
+    font-size: 3em;
 }
 
 .newsletter input#submit {
-    font-family: 'Segoe UI', serif;
     font-size: 2em;
     background-color: black;
-    border: none;
+    border: 3px solid white;
     color: white;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
+    padding: 0.2em;
     width: auto;
     height: auto;
+    outline: none;
 }
 
 .newsletter input#email {
-    font-family: 'Segoe UI', serif;
-    font-size: 2em;
-    width: 600px;
+    font-size: 1.6em;
+    border: 3px solid #91d6d3 ;
+}
+
+.newsletter input#email:focus {
+    box-shadow: 0 0 15px #FF0069 ;
+    border: 3px solid #FF0069 ;
+    outline: none;
+}
+
+@media screen and (max-width: 992px) {
+
+    .newsletter form {
+        width: 100%;
+        padding: 0;
+        bottom: 20vw;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .newsletter form {
+        width: 100%;
+        padding: 0 2%;
+        bottom: 5vw;
+    }
+
+    .newsletter h1 {
+        font-size: 2.2em;
+    }
 }
 
 /* Koniec CSS do sekcji newsletter */
