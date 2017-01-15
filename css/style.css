@@ -50,6 +50,8 @@ header{
 .navbar-custom {
     background-color:#1CBBB4;
     border: none;
+    width: 100%;
+    top: 0;
 }
 
 .navbar .navbar-nav {
