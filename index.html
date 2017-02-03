@@ -10,6 +10,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="apple-touch-icon-precomposed" href="faviconapple.png">
     <link rel="icon" href="favicon.png">
+
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> !-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -108,15 +114,16 @@
 
         <div class="features_container">
 
-            <div class="feature_mobile">
-                <img src="mobile.jpg" alt="Urządzenia mobilne" title="Urządzenia mobilne"/>
-                <h2> Dostęp z urządzenia mobilnego</h2>
-                <i class="fa fa-mobile fa-3" aria-hidden="true"></i>
+            <div class="feature_mobile js">
+                <img id="jsimg" src="mobile.jpg" alt="Urządzenia mobilne" title="Urządzenia mobilne"/>
+                <h2> Urządzenia mobilne</h2>
+                <i id="icon" class="fa fa-mobile fa-3" aria-hidden="true"></i>
+
             </div>
 
             <div class="feature_wcag">
                 <img src="disabled.jpg" alt="Standardy WCAG 2.0" title="Standardy WCAG 2.0"/>
-                <h2>Zachowanie standardów WCAG 2.0</h2>
+                <h2>Standardy WCAG 2.0</h2>
                 <i class="fa fa-blind fa-3" aria-hidden="true"></i>
             </div>
 
@@ -225,7 +232,6 @@
 
         </section>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </body>
 </html>
