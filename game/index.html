@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>Gra</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="game_background">
+<div id="score">0</div>
+<img id="animal" src="grafika/foka1.png"/>
+<img id="food_item" src="grafika/ryba1.png"/>
+</div>
+
+
+
+<script src="js/jquery-3.1.1.js"></script>
+<script>
+
+
+
+
+function funkcj () { $(document).ready(function($){
+$("#food_item").animate({"top": "+=416px"}, 3800);
+});
+}; 
+
+ window.setInterval(function(){
+        funkcj();
+    }, 2000);
+
+	
+/*function fooditems() {
+    
+var $fooditem = $('<img id="food-items" src="grafika/ryba1.png"/>');
+
+$('#testest').prepend($fooditem);
+        snowX = Math.floor(Math.random() * $('#testtest').width());
+        snowSpd = Math.floor(Math.random() + 5000);
+
+        fooditemsvisible.css({'left':snowX+'px'});
+        fooditemsvisible.animate({
+            top: "500px",
+            opacity : "0",
+
+        }, snowSpd, function(){
+            $(this).remove();
+            fooditems();
+        });
+
+    }
+    var timer = Math.floor(Math.random() +1000);
+    
+    window.setInterval(function(){
+        fooditems();
+    }, timer);
+	*/
+	
+
+//$("#fooditems").addClass('fooditemsvisible').animate
+//({
+  //  left: "+=20",
+   // right: "+=20"
+  //}, 0, function() {
+  //  // Animation complete.
+ // }); 
+
+
+
+setInterval(moveDot, 20);
+    var keys = {}
+
+    $('body').keydown(function(e) {
+        keys[e.keyCode] = true;
+    });
+
+    $('body').keyup(function(e) {
+        delete keys[e.keyCode];
+    });
+
+    function moveDot() {
+        for (var direction in keys) {
+            if (!keys.hasOwnProperty(direction)) continue; 
+var foczka = $("#animal").offset();
+var rybka = $("#food_item").offset();
+
+console.log(foczka);
+
+
+	if( foczka.left < rybka.left + 8 && foczka.top < rybka.top + 25 ){
+		console.log('Mam rybke!');
+		$("#food_item").hide( function (score) {
+		var score = 0;
+		score++;
+		$('#score').text(score);
+		});
+	}
+	
+
+            if (direction == 37 && parseInt($("#animal").css('left'))>0) {
+                $("#animal").animate({left: "-=3"}, 0);
+            }
+
+            if (direction == 39 && parseInt($("#animal").css('right'))>0) {
+                $("#animal").animate({left: "+=3"}, 0);
+            }
+
+        }
+    };
+
+
+
+</script>
+
+</body>
+</html>

@@ -2,145 +2,236 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Shop.pet</title>
+    <title>Shop.pet - Wszystko dla Twojego pupila!</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="apple-touch-icon-precomposed" href="faviconapple.png">
     <link rel="icon" href="favicon.png">
+
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> !-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 
 
 
 <div class="headerdiv">
     <header>
-        <div class="row">
-            <div class="container">
+     <div class="row">
+        <div class="container">
 
                 <div class="col-md-3 text-center">
 
 
 
-                    <form id="custom-search-form">
-                        <div class="input-append span12">
+            <form id="custom-search-form">
+                <div class="input-append span12">
 
-                            <input type="text" class="search-query mac-style" placeholder="Szukaj">
+                    <input type="text" class="search-query mac-style" placeholder="Szukaj">
 
-                            <button type="submit" class="btn"><i class="fa fa-search" aria-hidden="true"></i></button>
-
-                        </div>
-                    </form>
-
-
+                    <button type="submit" class="btn"><i class="fa fa-2x fa-search" aria-hidden="true"></i></button>
 
                 </div>
-
-                <div class="col-md-6"><a href="#"><img src="04.png" class="img-responsive logo"></a></div>
-
+            </form>
 
 
-                <div class="phonenumber col-md-3 text-center"><i class="fa fa-phone fa-2x" aria-hidden="true"><a href="tel:583296857">58 329 68 57</a></i></div>
-            </div>
-        </div>
 
-        <nav class="navbar-custom navbar navbar-default">
+                            </div>
+
+               <div class="col-md-6"><a href="#"><img src="04.png" class="img-responsive logo"></a></div>
+
+
+
+               <div class="phonenumber col-md-3 text-center"><i class="fa fa-phone fa-2x" aria-hidden="true"><a href="tel:583296857">58 329 68 57</a></i></div>
+         </div>
+     </div>
+
+        <nav class="navbar-custom navbar navbar-default navbar-inverse" data-spy="affix" data-offset-top="197">
 
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <i class="fa fa-paw fa-2x" aria-hidden="true"></i>
-                </button>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="fa fa-paw fa-2x" aria-hidden="true"></i>
+      </button>
 
-            </div>
+    </div>
 
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                 <ul class="nav navbar-nav">
-                    <li><a href="">Strona Główna</a></li>
-                    <li><a href="">O Produkcie</a></li>
-                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Zespół<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Sylwia</a></li>
-                            <li><a href="#">Kajetan</a></li>
-                            <li><a href="#">Natalia</a></li>
-                            <li><a href="#">Olga</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">Newsletter</a></li>
-                    <li><a href="">O nas</a></li>
-                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sklep<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="">Psy</a></li>
-                            <li><a href="">Koty</a></li>
-                            <li><a href="">Ryby</a></li>
-                            <li><a href="">Ptaki</a></li>
-                            <li><a href="">Gady</a></li>
-                        </ul>
-                    </li>
+                                <li><a href="index.html">Strona Główna</a></li>
+                                <li><a href="#oprodukcie">O Produkcie</a></li>
+                                <li><a href="#features">Funkcjonalności</a></li>
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nasz Zespół<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#sylwia">Sylwia</a></li>
+                                        <li><a href="#kajetan">Kajetan</a></li>
+                                        <li><a href="#natalia">Natalia</a></li>
+                                        <li><a href="#olga">Olga</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#newsletter">Newsletter</a></li>
+                                <li><a href="#napisalionas">Napisali o nas</a></li>
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sklep<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">Psy</a></li>
+                                        <li><a href="">Koty</a></li>
+                                        <li><a href="">Ryby</a></li>
+                                        <li><a href="">Ptaki</a></li>
+                                        <li><a href="">Gady</a></li>
+                                    </ul>
+                                </li>
 
 
                 </ul>
-            </div>
+                </div>
 
         </nav>
-
+        
     </header>
-</div>
+    </div>
 
      <main>
-         <section class="short_about">
+         <section class="short_about" id="oprodukcie">
              <div style="background-image: url('http://imagizer.imageshack.us/v2/1024x768q90/921/Yypfyf.jpg')" class="background_image">
-                 <h1 class="title-name">Shop.Pet</h1>
                  <h2 class="title-short">Tu znajdziesz wszystko dla swojego pupila!</h2>
              </div>
          </section>
 
-         <section class="newsletter">
+
+
+    <section class="features" id="features">
+
+        <h1>Poznaj funkcjonalności naszego serwisu:</h1>
+
+        <div class="features_container">
+
+            <div class="feature_mobile js">
+                <img id="jsimg" src="mobile.jpg" alt="Urządzenia mobilne" title="Urządzenia mobilne"/>
+                <h2> Urządzenia mobilne</h2>
+                <i id="icon" class="fa fa-mobile fa-3" aria-hidden="true"></i>
+
+            </div>
+
+            <div class="feature_wcag">
+                <img src="disabled.jpg" alt="Standardy WCAG 2.0" title="Standardy WCAG 2.0"/>
+                <h2>Standardy WCAG 2.0</h2>
+                <i class="fa fa-blind fa-3" aria-hidden="true"></i>
+            </div>
+
+            <div class="feature_search">
+                <img src="search.jpg" alt="Wyszukiwarka produktów" title="Wyszukiwarka produktów"/>
+                <h2>Wyszukiwarka produktów</h2>
+                <i class="fa fa-search fa-3" aria-hidden="true"></i>
+            </div>
+
+            <div class="feature_security">
+                <img src="security.jpg" alt="Bezpieczne zakupy" title="Bezpieczne zakupy"/>
+                <h2>Bezpieczne zakupy</h2>
+                <i class="fa fa-lock fa-3" aria-hidden="true"></i>
+            </div>
+
+        </div>
+
+    </section>
+         <section class="newsletter" id="newsletter">
+             <img src="newsletter_bg.jpg" alt="Tło Newslettera - Kot i Pies" title="Tło Newslettera - Kot i Pies"/>
+             <form>
+                 <h1>Zapisz się na newsletter:</h1>
+                 <br />
+                 <input id="email" type="email" name="user_email" title="Wpisz swój adres e-mail">
+                 <input id="submit" type="submit" value="Zapisuję się">
+             </form>
          </section>
          <article class="long_about"></article>
          <section class="about_us">
-             <div class="container">
+             <div class="container sylwiabox" id="naszzespol">
                  <h1>Nasz Zespół</h1>
-                 <div class="sylwia"><h3>Sylwia</h3>
+                 <div class="sylwia" id="sylwia"><h3>Sylwia</h3>
                      <img src="piesel.png" alt="dog image">
                      <p>Absolwentka administracji na Uniwersytetu Gdańskiego.
                          Szczęśliwa posiadaczka kochanego kundelka, wabiącego się "Piesia".
                          Prywatnie lubi spędzać czas na zabawach ze swoim czworonożnym pupilem oraz
                          uprawiać wspinaczkę sportową i taniec współczesny.</p>
                  </div>
-                 <div class="kajetan"><h3>Kajetan</h3>
+                 <div class="kajetan" id="kajetan"><h3>Kajetan</h3>
                      <img src="zaber.png" alt="frog image">
                      <p>Współtwórca shop.pet, który w firmie odpowiedzialny jest za dział SEO.
                          Jako freelancer wspiera marketingowo wiele startupów , dzięki czemu tworzy nową platformę z akcesoriami dla zwierząt.
                          Prywatnie ojciec, mąż i pasjonat filmów z lat 80-tych.</p>
                  </div>
-                 <div class="natalia"><h3>Natalia</h3>
+                 <div class="natalia" id="natalia"><h3>Natalia</h3>
                      <img src="rybel.png" alt="fisz image">
                      <p> Fanka filmów Science-Fiction i entuzjastka gotowania oraz zdrowego odżywiania.
                          Lubi długie kąpiele - wtedy czuje się jak ryba w wodzie.
                          Domatorka, która w wolnych chwilach próbuje swoich sił we Front-Endzie.</p>
                  </div>
-                 <div class="olga"><h3>Olga</h3>
+                 <div class="olga" id="olga"><h3>Olga</h3>
                      <img src="kotel.png" alt="cat image">
                      <p>Psycholog, behawiorystka i miłośniczka zwierząt, a szczególnie kotów.
                          Prowadzi dom tymczasowy i pomaga znaleźć bezdomnym kotom nowe rodziny.
                          Kiedy nie zajmuje się futrzakami, to śledzi najnowsze technologie i gra w planszówki.</p>
                  </div>
              </div>
-         </section>
-    <section class="more_about">
-
-    </section>
-
-
+             </section>
+                 <section class="more_about" id="napisalionas">
+                     <span> Napisali o nas:</span>
+                     <table class="tabela">
+                         <tbody>
+                         <tr><td>
+                                 <a href="https://radiogdansk.pl/index.php/audycje-rg/psie-porady-w-radiu-gdansk.html" >
+                                     <img src="http://imageshack.com/a/img921/2772/VCOWiP.png" alt="Radio Gdańsk" height="120" width="220" title="Mówią o nas" /></a>
+                             </td>
+                             <td>
+                                 Kampanie walczące z otyłością u zwierząt domowych stawiają na jakość produktów.
+                             </td></tr>
+                         <tr><td class="light-table">Tylko tu możemy zamówić drapaki na wymiar do mieszkania!</td>
+                             <td class="light-table">
+                                 <a href="https://www.shk.com.pl/" >
+                                     <img src="http://imageshack.com/a/img921/8114/Rxt8ok.jpg" alt="Stowarzyszenie hodowców" height="140" width="140" title="Polecają nas" /></a>
+                             </td></tr>
+                         <tr><td>
+                             <a href="http://www.akwarium.info.pl/" >
+                                     <img src="http://imageshack.com/a/img924/3351/wa3QXv.jpg" alt="Akwarystyka" height="140" width="140" title="Czekają na nas" /></a>
+                             </td>
+                             <td>Sklep przygotowuje indywidualne zamówienia i sprowadza artykuły z zagranicy.</td></tr>
+                         <tr><td class="light-table">Opieka nad zwierzętami egzotycznymi jest łatwa dzięki suplementom z Shop.Pet</td>
+                             <td class="light-table">
+                                 <a href="https://www.shk.com.pl/" >
+                                     <img src="http://imageshack.com/a/img923/4493/ruXXCI.jpg" alt="Stowarzyszenie hodowców" height="120" width="220" title="Wspierają nas" /></a>
+                             </td></tr>
+                         </tbody>
+                     </table>
+                 </section>
 </main>
+    <footer>
+        <section class="footer">
+            <span>ZNAJDŹ NAS W SIECI:</span>
+        <p>
+                <a href="https://www.facebook.com/infoshareacademy/?fref=ts" >
+                    <img class="img-circle" src="facebook.PNG" alt="konto Facebook" height="68" width="68" title="Znajdź nas na Facebooku" /></a>
+                <a href="https://twitter.com/infosharepl" >
+                    <img class="img-circle" src="twitter%20(2).PNG" alt="konto Twitter" height="68" width="68" title="Znajdź nas na Twitterze" /></a>
+                <a href="https://www.instagram.com/infoshareacademy/" >
+                    <img class="img-circle" src="instagram.PNG" alt="konto Instagram" height="68" width="68" title="Znajdź nas na Instagramie" /></a>
+                <a href="https://www.youtube.com/channel/UC5wCWXYVEXlQ8Fay9UcF7bw" >
+                    <img class="img-circle" src="googleplus.png" alt="konto Google +" height="68" width="68" title="Znajdź nas na Google +" /></a>
+        </p>
+            <p>Warunki zamawiania i zwrotów</p>
+            <p>Wszelkie prawa zastrzeżone</p>
+            <p>Copyright TeamBlue</span></p>
+            <p>Ostatnia aktualizacja 28.01.2017r.</p>
 
-    <footer></footer>
+        </section>
+    </footer>
 
 </body>
 </html>
