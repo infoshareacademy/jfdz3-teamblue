@@ -1,6 +1,6 @@
 body {
     background-color: #ffffff;
-    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 /* sekcja header */
@@ -26,8 +26,9 @@ div.phonenumber {
 
 div.phonenumber i a{
     vertical-align: top;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 
@@ -37,12 +38,17 @@ div.phonenumber i a{
     font-size: 18px;
 }
 
+i.fa-phone:before {
+    font-size: 1.4em;
+}
+
 header{
     margin-top: 20px;
 }
 
 .navbar {
     margin: 0 !important;
+    z-index: 1000;
 }
 
 .navbar-default .navbar-toggle {
