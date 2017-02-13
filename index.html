@@ -149,43 +149,55 @@
 
         <div class="features_container">
 
-            <div class="feature_mobile js">
-                <img id="jsimg" src="mobile.jpg" alt="Urządzenia mobilne" title="Urządzenia mobilne"/>
+            <div class="feature_mobile">
+                <img src="mobile.jpg" alt="Urządzenia mobilne" title="Urządzenia mobilne"/>
                 <h2> Urządzenia mobilne</h2>
-                <i id="icon" class="fa fa-mobile fa-3" aria-hidden="true"></i>
+                <i id="icon1" class="fa fa-mobile fa-3" aria-hidden="true"></i>
 
             </div>
 
             <div class="feature_wcag">
                 <img src="disabled.jpg" alt="Standardy WCAG 2.0" title="Standardy WCAG 2.0"/>
                 <h2>Standardy WCAG 2.0</h2>
-                <i class="fa fa-blind fa-3" aria-hidden="true"></i>
+                <i id="icon2" class="fa fa-blind fa-3" aria-hidden="true"></i>
             </div>
 
             <div class="feature_search">
                 <img src="search.jpg" alt="Wyszukiwarka produktów" title="Wyszukiwarka produktów"/>
                 <h2>Wyszukiwarka produktów</h2>
-                <i class="fa fa-search fa-3" aria-hidden="true"></i>
+                <i id="icon3" class="fa fa-search fa-3" aria-hidden="true"></i>
             </div>
 
             <div class="feature_security">
                 <img src="security.jpg" alt="Bezpieczne zakupy" title="Bezpieczne zakupy"/>
                 <h2>Bezpieczne zakupy</h2>
-                <i class="fa fa-lock fa-3" aria-hidden="true"></i>
+                <i id="icon4" class="fa fa-lock fa-3" aria-hidden="true"></i>
             </div>
 
         </div>
 
     </section>
+
          <section class="newsletter" id="newsletter">
              <img src="newsletter_bg.jpg" alt="Tło Newslettera - Kot i Pies" title="Tło Newslettera - Kot i Pies"/>
              <form>
                  <h1>Zapisz się na newsletter:</h1>
                  <br />
-                 <input id="email" type="email" name="user_email" title="Wpisz swój adres e-mail">
+                 <input id="email" type="email" name="user_email" title="Wpisz swój adres e-mail" placeholder="Wpisz swój adres e-mail" required>
                  <input id="submit" type="submit" value="Zapisuję się">
+
+                 <div class="antibot">
+                     <h2>Formularz antyspamowy - Uzupełnij wynik!</h2>
+                     <input id="nr1" class="first_number" type="text" name="antibot_number" title="" value="">
+                     <span>+</span>
+                     <input id="nr2" class="second_number" type="text" name="antibot_number" title="" value="">
+                     <span>=</span>
+                     <input id="antibot_result" class="final_result" type="text" name="antibot_result" required>
+
+                 </div>
              </form>
          </section>
+
          <article class="long_about"></article>
          <section class="about_us">
              <div class="container sylwiabox" id="naszzespol">
