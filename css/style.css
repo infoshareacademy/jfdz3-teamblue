@@ -10,7 +10,18 @@ body {
 }
 #top-link-block.affix {
     position: fixed; /* keeps it on the bottom once in view */
-    bottom: 18px; /* height of link element */
+    bottom: 78px; /* height of link element */
+    right: 10px; /* padding from the left side of the window */
+}
+
+#top-link-blocka.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -52px; /* negative of the offset - height of link element */
+    right: 10px; /* padding from the left side of the window */
+}
+#top-link-blocka.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 138px; /* height of link element */
     right: 10px; /* padding from the left side of the window */
 }
 
@@ -681,5 +692,6 @@ span {
         font-size: 2.2em;
     }
 }
+
 
 /* Koniec CSS do sekcji newsletter */

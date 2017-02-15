@@ -203,7 +203,7 @@ $(function(){
 
 //Kajetan
     if ( ($(window).height() + 100) < $(document).height() ) {
-        $('#top-link-block').removeClass('hidden').affix({
+        $('#top-link-block, #top-link-blocka').removeClass('hidden').affix({
             offset: {top:100}
         });
     }
