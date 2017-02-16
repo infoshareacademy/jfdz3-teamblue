@@ -30,6 +30,17 @@ body {
     background-color: #1CBBB4;
     border: none;
 }
+
+.glyphicon {
+    right: 1px;
+    top: 4px;
+}
+
+.well-sm:hover {
+    color: white;
+}
+
+
 /* sekcja header */
 .headerdiv{
     max-width: 100%;
@@ -256,6 +267,16 @@ ul.dropdown-menu > li > a:hover {
         outline: none;
     }
 
+@media screen and (min-width: 992px) and (max-width: 1512px) {
+
+    #custom-search-form button {
+        left: 110px;
+        bottom: 40px;
+    }
+
+}
+
+
 
 /* poczatek sekcji short _about*/
 
@@ -276,7 +297,7 @@ ul.dropdown-menu > li > a:hover {
     width: 100%;
 }
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-    height: 660px;
+    height: 600px;
     max-height: 100%;
 
 }
@@ -288,7 +309,7 @@ ul.dropdown-menu > li > a:hover {
 h2.title-short {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-style: italic;
-    font-size: 3.5em;
+    font-size: 3em;
     color: white;
     text-align: center;
     padding-right: 480px;
@@ -306,7 +327,7 @@ h2.title-short {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     padding-top: 4em;
     margin: 2em 0;
-    height: 870px;
+    height: 760px;
 }
 
 .features_container {
@@ -323,14 +344,14 @@ h2.title-short {
 .features h1 {
     color: black;
     text-align: center;
-    font-size: 3.5em;
+    font-size: 3em;
     padding: 1.5em;
     font-weight: bold;
     margin-left: 0.15em;
 }
 
 .features h2 {
-    font-size: 2.4em;
+    font-size: 2.2em;
     text-align: center;
     position: absolute;
     bottom: 2.4em;
@@ -340,30 +361,30 @@ h2.title-short {
 }
 
 #icon1, #icon2, #icon3, #icon4 {
-    font-size: 11em;
+    font-size: 8em;
     text-align: center;
     color: white;
     display: none;
     text-shadow: rgb(199, 197, 197) 2px 1px 10px;
     font-weight: 100;
     position: absolute;
-    bottom: 0.45em;
+    bottom: 0.65em;
 }
 
 #icon1 {
-    left: 0.75em;
+    left: 0.98em;
 }
 
 #icon2 {
-    left: 0.65em;
+    left: 0.85em;
 }
 
 #icon3 {
-    left: 0.52em;
+    left: 0.72em;
 }
 
 #icon4 {
-    left: 0.62em;
+    left: 0.85em;
 }
 
 
@@ -376,8 +397,8 @@ h2.title-short {
     position: relative;
     margin: 0 auto;
     text-align: center;
-    width: 20em;
-    height: 20em;
+    width: 18em;
+    height: 18em;
     background-color: #217f7b;
     border-radius: 50%;
     box-shadow: 0 0 93px 6px rgba(150, 48, 90,0.7);
@@ -386,8 +407,8 @@ h2.title-short {
 }
 
 .features_container img {
-    width: 19em;
-    height: 19em;
+    width: 17em;
+    height: 17em;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -395,11 +416,23 @@ h2.title-short {
     filter: opacity(30%);
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1092px) {
 
     .feature_mobile, .feature_wcag, .feature_search, .feature_security {
-        margin: 5%;
+        margin: 2%;
     }
+
+    .features {
+        padding-top: 0.5em;
+        margin: 1em 0;
+    }
+
+    .features h1 {
+        padding: 0.5em;
+        margin: 0;
+    }
+
+
 
 }
 
@@ -461,7 +494,7 @@ div.olga {
 }
 
 div.sylwiabox > h1 {
-    font-size: 3.5em;
+    font-size: 3em;
     font-style: normal;
     font-weight: bold;
     margin: 30px;
@@ -501,7 +534,7 @@ div.sylwiabox img {
 }
 
 .more_about span {
-    font-size: 52px;
+    font-size: 42px;
     font-style: normal;
     font-weight: bold;
     margin: 30px;
@@ -581,7 +614,7 @@ div.sylwiabox img {
     padding-right: 10%;
     width: 100%;
     height: 30%;
-    bottom: 21vw;
+    bottom: 24vw;
     background-color: rgba(250, 250, 250, 0);
 }
 
@@ -594,13 +627,13 @@ div.sylwiabox img {
 .newsletter h1 {
     text-align: center;
     color: white;
-    font-size: 3.5em;
+    font-size: 3em;
 }
 
 .newsletter h2 {
     text-align: center;
     color: black;
-    font-size: 2.4em;
+    font-size: 2.2em;
     opacity: 1;
 }
 
@@ -618,7 +651,7 @@ div.sylwiabox img {
 }
 
 .newsletter input#email {
-    font-size: 2.4em;
+    font-size: 2.2em;
     border: 3px solid #91d6d3 ;
 }
 
@@ -669,22 +702,71 @@ span {
     font-size: 2em;
 }
 
+@media screen and (max-width: 1092px) {
+
+    .newsletter form {
+        bottom: 25vw;
+    }
+
+    .antibot {
+        width: 80.2%;
+    }
+}
 
 @media screen and (max-width: 992px) {
 
     .newsletter form {
         width: 100%;
         padding: 0;
-        bottom: 20vw;
+        bottom: 26vw;
+    }
+
+    .newsletter input {
+        height: 1.6em;
+    }
+
+    .newsletter h1 {
+        font-size: 2.6em;
+    }
+
+    .newsletter h2 {
+        font-size: 1.8em;
+    }
+
+    .newsletter input#submit {
+        font-size: 1.6em;
+    }
+
+    .newsletter input#email {
+        font-size: 1.8em;
+    }
+
+    .antibot input[type=text] {
+        font-size: 1.6em;
+    }
+
+    .antibot input#antibot_result {
+        font-size: 2em;
+    }
+
+    span {
+        font-weight: bold;
+        font-size: 1.6em;
     }
 }
+
+@media screen and (max-width: 992px) {
+
+}
+
+
 
 @media screen and (max-width: 520px) {
 
     .newsletter form {
         width: 100%;
         padding: 0 2%;
-        bottom: 5vw;
+        bottom: 7vw;
     }
 
     .newsletter h1 {
