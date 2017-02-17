@@ -486,7 +486,7 @@ div.container {
     display: block;
     padding-bottom: 2%;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1400px;
     overflow: hidden;
     background-color: white;
     font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -496,7 +496,6 @@ div.sylwia {
     background-color:aliceblue  ;
     box-shadow: 0 1px 1px;
     border-radius: 1px;
-
     float: left;
     margin-left: 2%;
     margin-right: 1%;
@@ -566,7 +565,9 @@ div.sylwiabox img {
     border: 0.5em solid white;
     margin: 2%;
 }
-
+section.about_us h3 {
+   font-weight: bold;
+}
 /* Koniec sekci  o zespole*/
 
 .more_about {
