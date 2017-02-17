@@ -50,7 +50,7 @@ body {
 
 
 
-img.logo {
+img.img-responsive-logo {
     max-height: 140px;
     height: 100%;
     margin: 0px auto;
@@ -283,22 +283,28 @@ ul.dropdown-menu > li > a:hover {
 
 
 
-.carousel slide{
+.carousel{
     display: block;
     margin-top: auto;
-    max-height: 600px;
+    max-height: 640px;
+   max-width: 100%;
+
 }
 .background_image{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     max-height: 100%;
-    height: 600px;
-    width: 100%;
+    height: 640px;
+    width: 1800px;
+    max-width: 100%;
+
 }
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-    height: 600px;
+    height: 640px;
     max-height: 100%;
+    width: 100%;
+
 
 }
 
