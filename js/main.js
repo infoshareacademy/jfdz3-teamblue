@@ -11,14 +11,14 @@ $(function(){
 
     $('.feature_mobile').mouseover( function () {
         $(this).stop(true, false).animate({
-            width: "22em",
-            height: "22em"
+            width: "20em",
+            height: "20em"
         }, 0, function() {
         });
 
         $('.feature_mobile img').stop(true, false).animate({
-            width: "21em",
-            height: "21em"
+            width: "19em",
+            height: "19em"
         }, 0, function() {
         });
 
@@ -31,14 +31,14 @@ $(function(){
 
     $('.feature_mobile').mouseout( function () {
         $(this).animate({
-            width: "20em",
-            height: "20em"
+            width: "18em",
+            height: "18em"
         }, 0, function() {
         });
 
         $('.feature_mobile img').animate({
-            width: "19em",
-            height: "19em"
+            width: "17em",
+            height: "17em"
         }, 0, function() {
         });
 
@@ -53,14 +53,14 @@ $(function(){
 
     $('.feature_wcag').mouseover( function () {
         $(this).stop(true, false).animate({
-            width: "22em",
-            height: "22em"
+            width: "20em",
+            height: "20em"
         }, 0, function() {
         });
 
         $('.feature_wcag img').stop(true, false).animate({
-            width: "21em",
-            height: "21em"
+            width: "19em",
+            height: "19em"
         }, 0, function() {
         });
 
@@ -73,14 +73,14 @@ $(function(){
 
     $('.feature_wcag').mouseout( function () {
         $(this).animate({
-            width: "20em",
-            height: "20em"
+            width: "18em",
+            height: "18em"
         }, 0, function() {
         });
 
         $('.feature_wcag img').animate({
-            width: "19em",
-            height: "19em"
+            width: "17em",
+            height: "17em"
         }, 0, function() {
         });
 
@@ -95,14 +95,14 @@ $(function(){
 
     $('.feature_search').mouseover( function () {
         $(this).stop(true, false).animate({
-            width: "22em",
-            height: "22em"
+            width: "20em",
+            height: "20em"
         }, 0, function() {
         });
 
         $('.feature_search img').stop(true, false).animate({
-            width: "21em",
-            height: "21em"
+            width: "19em",
+            height: "19em"
         }, 0, function() {
         });
 
@@ -115,14 +115,14 @@ $(function(){
 
     $('.feature_search').mouseout( function () {
         $(this).animate({
-            width: "20em",
-            height: "20em"
+            width: "18em",
+            height: "18em"
         }, 0, function() {
         });
 
         $('.feature_search img').animate({
-            width: "19em",
-            height: "19em"
+            width: "17em",
+            height: "17em"
         }, 0, function() {
         });
 
@@ -137,14 +137,14 @@ $(function(){
 
     $('.feature_security').mouseover( function () {
         $(this).stop(true, false).animate({
-            width: "22em",
-            height: "22em"
+            width: "20em",
+            height: "20em"
         }, 0, function() {
         });
 
         $('.feature_security img').stop(true, false).animate({
-            width: "21em",
-            height: "21em"
+            width: "19em",
+            height: "19em"
         }, 0, function() {
         });
 
@@ -157,14 +157,14 @@ $(function(){
 
     $('.feature_security').mouseout( function () {
         $(this).animate({
-            width: "20em",
-            height: "20em"
+            width: "18em",
+            height: "18em"
         }, 0, function() {
         });
 
         $('.feature_security img').animate({
-            width: "19em",
-            height: "19em"
+            width: "17em",
+            height: "17em"
         }, 0, function() {
         });
 
@@ -211,5 +211,3 @@ $(function(){
 
 
 });
-
-
