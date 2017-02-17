@@ -345,13 +345,12 @@ ul.dropdown-menu > li > a:hover {
     height: 640px;
     max-height: 100%;
     width: 100%;
-
 }
 
 h2.title-short {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-style: normal;
-    font-size: 2.2 em;
+    font-size: 2.2em;
     color: white;
     text-align: center;
     padding-right: 480px;
@@ -360,6 +359,20 @@ h2.title-short {
     padding-top: 150px;
 }
 
+@media screen and (min-width: 800px) and (max-width: 1199px) {
+
+
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+        height: 440px;
+        max-height: 100%;
+        width: 100%;
+    }
+    h2.title-short {
+        font-size: 2.2em;
+        padding-right: 290px;
+        margin-bottom: 210px;
+    }
+}
 /* koniec sekcji  short_about */
 
 
@@ -473,9 +486,6 @@ h2.title-short {
         padding: 0.5em;
         margin: 0;
     }
-
-
-
 }
 
 /* Koniec CSS do klasy features */
@@ -502,8 +512,8 @@ div.sylwia {
     margin-left: 2%;
     margin-right: 1%;
     width:23%;
-    height:100%;
-    min-height:550px ;
+    height:550px;
+
 }
 
 div.kajetan {
@@ -515,8 +525,7 @@ div.kajetan {
     float: left;
     margin-right: 1%;
     width:23%;
-    height:100%;
-    min-height:550px;
+    height:550px;
 }
 div.natalia {
     background:linear-gradient(
@@ -527,8 +536,7 @@ div.natalia {
     margin-right: 1%;
     float: left;
     width:23%;
-    height:100%;
-    min-height:550px;
+    height:550px;
 }
 div.olga {
     background:linear-gradient(
@@ -539,16 +547,15 @@ div.olga {
     margin-right: 1%;
     float: left;
     width:23%;
-    height:100%;
-    min-height:550px;
+    height:550px;
 }
 
 div.sylwiabox > h1 {
     font-size: 3em;
     font-style: normal;
     font-weight: bold;
-    margin: 30px;
-    padding: 3em
+    margin: 3%;
+    padding: 4%;
 }
 
 div.sylwiabox > h1::first-letter {
@@ -576,7 +583,31 @@ div.sylwiabox img {
 }
 section.about_us h3 {
    font-weight: bold;
-    margin: 20px;
+    margin: 10%;
+}
+@media screen and (min-width: 800px) and (max-width: 1199px) {
+    div.sylwia, div.natalia {
+
+        float: left;
+        margin: 2%;
+        width: 46%;
+
+    }
+
+    div.kajetan, div.olga {
+
+        float: right;
+        margin: 2%;
+        width: 46%;
+
+    }
+
+    section.about_us h3 {
+        margin: 8%;
+    }
+    div.sylwiabox p {
+        margin: 10% 3% 10%;
+    }
 }
 /* Koniec sekci  o zespole*/
 
