@@ -270,18 +270,59 @@ ul.dropdown-menu > li > a:hover {
 @media screen and (min-width: 992px) and (max-width: 1512px) {
 
     #custom-search-form button {
-        left: 110px;
-        bottom: 40px;
+        left: 86px;
+        bottom: 36px;
+    }
+}
+
+@media screen and (max-width: 992px)  {
+
+    header {
+        margin-top: 0;
+    }
+
+    div.phonenumber {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 1200px) {
+
+    i.fa-phone:before {
+        font-size: 1.2em;
+    }
+
+    div.phonenumber i a {
+        font-size: 1em;
+    }
+
+     .search-query {
+         height: 1.5em;
+         width: 210px;
+    }
+
+    .search-query:focus {
+        height: 1.5em;
+        width: 210px;
+    }
+
+    img.img-responsive-logo {
+       max-width: 100%;
+       height: 100%;
     }
 
 }
 
 
+@media screen and (min-width: 1200px) and (max-width: 1512px) {
+
+    #custom-search-form button {
+        left: 104px;
+        bottom: 40px;
+    }
+}
 
 /* poczatek sekcji short _about*/
-
-
-
 
 .carousel{
     display: block;
