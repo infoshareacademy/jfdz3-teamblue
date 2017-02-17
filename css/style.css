@@ -304,18 +304,12 @@ ul.dropdown-menu > li > a:hover {
     height: 640px;
     max-height: 100%;
     width: 100%;
-
-
-}
-
-.title-short {
-    width: 90%;
 }
 
 h2.title-short {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-style: italic;
-    font-size: 3em;
+    font-style: normal;
+    font-size: 2.2 em;
     color: white;
     text-align: center;
     padding-right: 480px;
@@ -515,6 +509,7 @@ div.sylwiabox > h1::first-letter {
 div.sylwiabox p {
     margin: 15%  3% 10%;
     font-style: normal;
+    font-size: 15px;
     font-weight: inherit;
     text-align: justify;
 }
