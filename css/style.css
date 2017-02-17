@@ -493,7 +493,9 @@ div.container {
     text-align: center;
 }
 div.sylwia {
-    background-color:aliceblue  ;
+    background:linear-gradient(
+            rgba(28, 187, 180, 0.1),
+            rgba(28, 187, 180, 0.48));
     box-shadow: 0 1px 1px;
     border-radius: 1px;
     float: left;
@@ -505,7 +507,9 @@ div.sylwia {
 }
 
 div.kajetan {
-    background-color: aliceblue;
+    background:linear-gradient(
+            rgba(28, 187, 180, 0.1),
+            rgba(28, 187, 180, 0.48));
     box-shadow: 0 1px 1px;
     border-radius: 1px;
     float: left;
@@ -515,7 +519,9 @@ div.kajetan {
     min-height:550px;
 }
 div.natalia {
-    background-color:aliceblue;
+    background:linear-gradient(
+            rgba(28, 187, 180, 0.1),
+            rgba(28, 187, 180, 0.48));
     box-shadow: 0 1px 1px;
     border-radius: 1px;
     margin-right: 1%;
@@ -525,7 +531,9 @@ div.natalia {
     min-height:550px;
 }
 div.olga {
-    background-color: aliceblue;
+    background:linear-gradient(
+            rgba(28, 187, 180, 0.1),
+            rgba(28, 187, 180, 0.48));
     box-shadow: 0 1px 1px;
     border-radius: 1px;
     margin-right: 1%;
@@ -554,6 +562,7 @@ div.sylwiabox p {
     font-size: 15px;
     font-weight: inherit;
     text-align: justify;
+    padding: 0 8% 0 8%;
 }
 div.sylwiabox img {
     height: 100%;
@@ -561,12 +570,13 @@ div.sylwiabox img {
     width: 100%;
     max-width: 208px;
     border-radius: 100px;
-    box-shadow: 0 0 93px 2px rgba(150, 48, 90,0.7);
+    box-shadow: 0 0 93px 5px rgba(150, 48, 90,0.7);
     border: 0.5em solid white;
     margin: 2%;
 }
 section.about_us h3 {
    font-weight: bold;
+    margin: 20px;
 }
 /* Koniec sekci  o zespole*/
 
