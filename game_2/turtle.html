@@ -8,13 +8,14 @@
 <body>
 
 <div id="game_background">
-<div id="heart">
-<img src="images/heart.png"/>
-<img src="images/heart.png"/>
-<img src="images/heart.png"/>
-</div>
-<p>Score:</p><div id="score">0</div>
-<img id="animal" src="images/zolw1.png"/>
+	<div id="heart">
+		<img src="images/heart.png"/>
+		<img src="images/heart.png"/>
+		<img src="images/heart.png"/>
+	</div>
+	<p>Score:</p>
+	<div id="score">0</div>
+	<img id="animal" src="images/zolw1.png"/>
 
 </div>
 
@@ -22,140 +23,170 @@
 <script src="js/jquery-3.1.1.js"></script>
 <script>
 
- $(document).ready(function ($) {
+	$(document).ready(function ($) {
 
-var totalFood = 0;
-var fallRate = 3000;
-var images = ['marchewka.png', 'larwa.png', 'jablko.png', 'puszka1.png', 'pajak1.png', 'kamienie.png'];
-var timer = Math.floor(fallRate);
-var foodCaught = 0;
+		var totalFood = 0;
+		var fallRate = 3000;
+		var images = ['larwa.png', 'marchewka.png', 'jablko.png', 'puszka1.png', 'kamienie.png', 'pajak1.png'];
+		var foodCaught = 0;
 
 //var randomnumber = Math.floor(Math.random()*$("#food-times").children().length);
 // "src="images/ryba1.png"/
 //src="images/' + images[Math.floor(Math.random() * images.length)] + '
 
-function foodItems() {
-	
-	var foodXPos = Math.floor(Math.random() * $('#game_background').width() * 0.8);
-	
-	console.log (foodXPos)
-	
-	var foodSpeed = Math.floor(Math.random() + fallRate);
-	var $foodItem = $('<img id="food-item" style="position:absolute; top:-50px;" src="images/' + images[Math.floor(Math.random() * images.length)] + '">');
-	//var foodItem = Math.floor(Math.random()*$("#food-times").children().length);
-	
-	$('#game_background').prepend($foodItem);
 
-	// if ( $("#food-item").attr("src") == "images/ryba1.png"  ) {
- //  $(this).attr('id', 'food-item-good');
 
-	
-	$("#food-item").css({'left':foodXPos+'px'});
-	
-	$("#food-item")
-		//.delay(Math.random() * 500)
-		//.css({'z-index: 0'})
-		.animate({
-		"top": "+410px"},
-		foodSpeed,
-		function(){
-		$(this).remove();
-		totalFood++;
-		if(totalFood==30){
-			fallRate *= 0.8;
+		document.body.onkeydown = function (e) {
+			console.log(111)
+			if (e.keyCode == 37 && parseInt($("#animal").css('left')) > 0) {
+				$("#animal").animate({left: "-=5"}, 0);
+			}
+			else if (e.keyCode == 39 && parseInt($("#animal").css('right')) > 0) {
+				$("#animal").animate({left: "+=5"}, 0);
+			}
 		}
-	});
-	
-	
-	
 
-	$('[id="food-item"]').each(function( e ){  
-	
- if  ( ($(this).attr("src") == "images/marchewka.png") || 
- ($(this).attr("src") == "images/larwa.png") || 
- ($(this).attr("src") == "images/jablko.png") 
- ) 
- 
- {$(this).attr('id', 'food-item-good');
- //{$(this).addClass('food-item-good');
- }
+		function foodItems() {
 
- else if ( ($(this).attr("src") == "images/puszka1.png") || 
- ($(this).attr("src") == "images/pajak.png") || 
- ($(this).attr("src") == "images/kamienie.png") 
- 
- ) 
- 
-{$(this).attr('id', 'food-item-bad');
+			var foodXPos = Math.floor(Math.random() * $('#game_background').width() * 0.8);
+
+			console.log(foodXPos)
+
+			var foodSpeed = Math.floor(Math.random() + fallRate);
+
+			var $foodItem = $('<img id="food-item" style="position:absolute; top:-50px;" src="images/' + images[Math.floor(Math.random() * images.length)] + '">');
+			//var foodItem = Math.floor(Math.random()*$("#food-times").children().length);
+
+			$('#game_background').prepend($foodItem);
+
+			// if ( $("#food-item").attr("src") == "images/ryba1.png"  ) {
+			//  $(this).attr('id', 'food-item-good');
+
+
+			$("#food-item").css({'left': foodXPos + 'px'});
+
+			$("#food-item")
+			//.delay(Math.random() * 500)
+			//.css({'z-index: 0'})
+					.animate({
+								"top": "+400px"
+							},
+							foodSpeed,
+							function () {
+								$(this).remove();
+								totalFood++;
+								if (totalFood == 30) {
+									fallRate *= 0.8;
+								}
+							});
+
+
+			$('[id="food-item"]').each(function (e) {
+
+				if (($(this).attr("src") == "images/larwa.png") ||
+						($(this).attr("src") == "images/marchewka.png") ||
+						($(this).attr("src") == "images/jablko.png")
+				) {
+					$(this).attr('id', 'food-item-good');
+					//{$(this).addClass('food-item-good');
+				}
+
+				else if (($(this).attr("src") == "images/puszka1.png") ||
+						($(this).attr("src") == "images/kamienie.png") ||
+						($(this).attr("src") == "images/pajak1.png")
+
+				) {
+					$(this).attr('id', 'food-item-bad');
 //{$(this).addClass('food-item-bad');
- }
- 
- });
-	
-	
-	document.body.onkeydown = function(e){
-		if (e.keyCode == 37 && parseInt($("#animal").css('left'))>0) {
-			$("#animal").animate({left: "-=5"}, 0);
+				}
+
+			});
+
+
+
+
+
 		}
-		else if (e.keyCode == 39 && parseInt($("#animal").css('right'))>0) {
-			$("#animal").animate({left: "+=5"}, 0);
-		}
-	}
-	
-	
-}
 
-	
-var myInterval = setInterval(function(){
-foodItems();
-}, timer);
+
+		var myInterval = setInterval(function () {
+			foodItems();
+		}, fallRate);
+
+
+		setInterval(function () {
 
 
 
-setInterval(function(){
-
-		var animal = $("#animal").offset();
-	    var foodGood = $("#food-item-good").offset();
-	    var foodBad = $("#food-item-bad").offset();
-		
+			var animal = $("#animal").offset();
+			var foodGood = $("#food-item-good").offset();
+			var foodBad = $("#food-item-bad").offset();
 
 
-	if ( animal.left > foodGood.left - 50  && animal.left < foodGood.left + 50 && foodGood.top > 350){
-		foodCaught++;
-		$('#score').text(foodCaught);
-	}
-	
-
-	else if ( animal.left > foodBad.left - 50 && animal.left < foodBad.left + 50 && foodBad.top > 350){
-		//$('#heart img').last().remove();
-		$('#heart').children().last().remove();
-		foodCaught = 0;
-		$('#score').text(foodCaught);
-		var $beCareful = $('<p id="be-careful" style="position: absolute; bottom: 300px; left: 65px; color: red; font-size: 25px;" >Be Careful!</p>');
-		$('#game_background').prepend($beCareful);
-		$('#be-careful').fadeOut(5000); 
-	}
+			console.log($("#food-item-good").length, $("#animal").length, $("#food-item-bad").length );
 
 
-	
-	
-     else if ( !($('#heart').children().length > 0) ) {
-    clearInterval (myInterval);
-	var $gameOver = $('<p id="game-over" style="position: absolute; bottom: 300px; left: 65px; color: black; font-size: 30px;" >GAME OVER</p>');
-	$('#be-careful').hide();
-	$('#game_background').prepend($gameOver);
-	
-	
-	}
-	
-	
-}, 250);
+			if (foodGood) {
+				if (animal.left > foodGood.left - 25 && animal.left < foodGood.left + 50 && foodGood.top > 390) {
+					foodCaught++;
+					$('#score').text(foodCaught);
+					$("#food-item-good").remove();
+				}
+			}
+			if (foodBad) {
+				if (animal.left > foodBad.left - 50 && animal.left < foodBad.left + 50 && foodBad.top > 390) {
+					//$('#heart img').last().remove();
+					$('#heart').children().last().remove();
+					foodCaught = 0;
+					$('#score').text(foodCaught);
+					var $beCareful = $('<p id="be-careful" style="position: absolute; bottom: 300px; left: 65px; color: red; font-size: 25px;" >Be Careful!</p>');
+					$('#game_background').prepend($beCareful);
+					$('#be-careful').fadeOut(5000);
+					$("#food-item-bad").remove();
+				}
+			}
+			if ($('#heart').children().length === 0) {
+				clearInterval(myInterval);
+				var $gameOver = $('<p id="game-over" style="position: absolute; bottom: 300px; left: 65px; color: black; font-size: 30px;" >GAME OVER</p>');
+				$('#be-careful').hide();
+				$('#game_background').prepend($gameOver);
 
 
-});
+			}
+
+//
+//            if (animal.left > foodGood.left - 50 && animal.left < foodGood.left + 50 && foodGood.top > 350) {
+//                foodCaught++;
+//                $('#score').text(foodCaught);
+//            }
+//
+//
+//
+//            else if (animal.left > foodBad.left - 50 && animal.left < foodBad.left + 50 && foodBad.top > 350) {
+//                //$('#heart img').last().remove();
+//                $('#heart').children().last().remove();
+//                foodCaught = 0;
+//                $('#score').text(foodCaught);
+//                var $beCareful = $('<p id="be-careful" style="position: absolute; bottom: 300px; left: 65px; color: red; font-size: 25px;" >Be Careful!</p>');
+//                $('#game_background').prepend($beCareful);
+//                $('#be-careful').fadeOut(5000);
+//            }
+//
+//
+//            else if (!($('#heart').children().length > 0)) {
+//                clearInterval(myInterval);
+//                var $gameOver = $('<p id="game-over" style="position: absolute; bottom: 300px; left: 65px; color: black; font-size: 30px;" >GAME OVER</p>');
+//                $('#be-careful').hide();
+//                $('#game_background').prepend($gameOver);
+//
+//
+//            }
 
 
+		}, 16);
 
+
+	});
 
 
 </script>
