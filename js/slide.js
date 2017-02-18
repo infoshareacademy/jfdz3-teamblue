@@ -33,7 +33,7 @@
 
 var win = $(window);
 
-var allMods = $(".tabela");
+var allMods = $(".table");
 
 allMods.each(function(i, el) {
     var el = $(el);
