@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'kongtext';
+  src: url('kongtext.ttf') format('truetype');
+}
+
+
+#game_background {
+	background: url("images/tlo-foka.jpg");
+ 	position: relative;
+	height: 600px;
+	width: 400px;
+	
+}
+
+#game_background  p {
+	position: absolute;
+	left: 200px;
+	font-size: 1.2em;
+	font-family: 'kongtext';
+}
+
+.animal{	
+	position: absolute;
+	left: 250px;
+	top: 393px;
+}
+
+
+.score {
+	font-size: 1.4em;
+	font-family: 'kongtext';
+	position: absolute;
+	left: 340px;
+	top: 16px;
+}
+
+
+#heart {
+	position: absolute;
+	left: 20px;
+	top: 16px;
+	width: 150px;
+}
+
+#heart img {
+	margin: 0 1%;
+}
+
+#lost-life {
+	display: none;
+}
+
+
