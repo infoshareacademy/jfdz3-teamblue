@@ -28,7 +28,6 @@
         var totalFood = 0;
         var fallRate = 3000;
         var images = ['ryba1.png', 'miska.png', 'mleko11.png', 'jablko.png', 'puszka1.png', 'butelka2.png', 'klucz.png', 'but3.png'];
-        var timer = Math.floor(fallRate);
         var foodCaught = 0;
 
 //var randomnumber = Math.floor(Math.random()*$("#food-times").children().length);
@@ -54,6 +53,7 @@
             console.log(foodXPos)
 
             var foodSpeed = Math.floor(Math.random() + fallRate);
+
             var $foodItem = $('<img id="food-item" style="position:absolute; top:-50px;" src="images/' + images[Math.floor(Math.random() * images.length)] + '">');
             //var foodItem = Math.floor(Math.random()*$("#food-times").children().length);
 
@@ -113,7 +113,7 @@
 
         var myInterval = setInterval(function () {
             foodItems();
-        }, timer);
+        }, fallRate);
 
 
         setInterval(function () {

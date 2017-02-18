@@ -19,14 +19,14 @@
 	font-family: 'kongtext';
 }
 
-.animal{	
+#animal{
 	position: absolute;
 	left: 250px;
 	top: 393px;
 }
 
 
-.score {
+#score {
 	font-size: 1.4em;
 	font-family: 'kongtext';
 	position: absolute;
