@@ -721,10 +721,10 @@ section.about_us h3 {
 .more_about {
     text-align: center;
     table-layout: auto; width: 100%;
-    padding-bottom: 2%;
     font-family: "Helvetica Neue","Helvetica,Arial",sans-serif;
     font-size: 1.5em;
-    margin-top: 8%
+    margin-top: 5%
+    padding: 0 8% 0 8%;
 }
 
 .more_about span {
@@ -732,8 +732,8 @@ section.about_us h3 {
     font-style: normal;
     font-weight: bold;
     margin-top: 1%;
-    padding-bottom: 3%;
     display: block;
+    padding: 0 8% 0 8%;
 }
 
 
@@ -743,16 +743,13 @@ section.about_us h3 {
 }
 
 .tabela {
-    background-color: #91d6d3;
     font-family: "Helvetica Neue","Helvetica,Arial",sans-serif;
-    border-collapse: collapse;
-    table-layout: fixed;
     width: 100%
+    margin-top: 1%;
 }
 
-.tabela td {
-    padding-top: 1%;
-    padding-bottom: 1%;
+.dark-table {
+    background-color: #91d6d3;
 }
 .light-table {
     background-color: white;
