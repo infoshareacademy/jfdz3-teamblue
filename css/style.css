@@ -380,11 +380,20 @@ h2.title-short {
     }
 
     h2.title-short {
-        font-size: 2.2em;
-        padding-right: 150px;
-        margin-bottom: 130px;
+        font-size: 1.6em;
+        padding-right: 160px;
+        margin-bottom: 120px;
     }
 }
+
+@media screen and (max-width: 480px){
+
+    h2.title-short {
+        font-size: 1.5em;
+        margin-bottom: 80px;
+    }
+}
+
 
 /* koniec sekcji  short_about */
 
@@ -712,7 +721,7 @@ section.about_us h3 {
 .more_about {
     text-align: center;
     table-layout: auto; width: 100%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     font-family: "Helvetica Neue","Helvetica,Arial",sans-serif;
     font-size: 1.5em;
     margin-top: 8%
@@ -789,9 +798,10 @@ section.about_us h3 {
 }
 
 .gameboy img {
-    float: left;
-    height: 80px;
-    width: 80px;
+    height: 59px;
+    width: 37px;
+    margin-left: 1%;
+
 }
 
 /* CSS do sekcji newsletter */
