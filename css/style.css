@@ -363,16 +363,29 @@ h2.title-short {
 
 
     .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-        height: 440px;
-        max-height: 100%;
-        width: 100%;
+        height: 400px;
+      /*  max-height: 100%;
+        width: 100%; */
     }
     h2.title-short {
         font-size: 2.2em;
-        padding-right: 290px;
-        margin-bottom: 210px;
+        padding-right: 260px;
+        margin-bottom: 180px;
     }
 }
+
+@media screen and (max-width: 799px){
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+        height: 300px;
+    }
+
+    h2.title-short {
+        font-size: 2.2em;
+        padding-right: 150px;
+        margin-bottom: 130px;
+    }
+}
+
 /* koniec sekcji  short_about */
 
 
@@ -587,26 +600,34 @@ section.about_us h3 {
 }
 @media screen and (min-width: 800px) and (max-width: 1199px) {
     div.sylwia, div.natalia {
-
         float: left;
         margin: 2%;
         width: 46%;
-
     }
-
     div.kajetan, div.olga {
 
         float: right;
         margin: 2%;
         width: 46%;
-
     }
-
     section.about_us h3 {
         margin: 8%;
     }
     div.sylwiabox p {
         margin: 10% 3% 10%;
+    }
+}
+@media screen and (max-width: 799px ) {
+    div.sylwia, div.olga, div.natalia, div.kajetan {
+        margin-left: 0;
+        float: none;
+        width: 100%;
+    }
+    section.about_us h3 {
+        padding-top: 10%;
+    }
+    div.sylwiabox p {
+        margin: 6% 3% 5%
     }
 }
 /* Koniec sekci  o zespole*/
