@@ -200,6 +200,23 @@ $(function(){
 
     });
 
+  //$(window).on('load', function () {
+   //    var viewportWidth = $(window).width();
+   //  if (viewportWidth < 620) {
+    //     $(".features_container").removeClass(".feature_mobile.feature_wcag.feature_search.feature_security");
+    //  }
+   // });
+
+  // $(window).resize(function () {
+   //    var viewportWidth = $(window).width();
+     //  if (viewportWidth < 620) {
+      //      $(".features_container").removeClass(".feature_mobile.feature_wcag.feature_search.feature_security");
+     //   }
+    //});
+
+
+
+
 //Kajetan
     if ( ($(window).height() + 100) < $(document).height() ) {
         $('#top-link-block, #top-link-blocka').removeClass('hidden').affix({
