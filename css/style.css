@@ -750,17 +750,17 @@ section.about_us h3 {
 }
 
 .dark-table {
-    background: linear-gradient(to right, #fafefe 47%,#e6f4fe 80%,#e6f4fe 86%,#e6f4fe 92%,#e0f1fe 100%,#dbf0ff 100%,#e0f1fe 100%);
+    background: linear-gradient(to right, #f8fefe 55%,#c2faf6 100%);
     text-align: left;
-    padding-left: 12%;
-    padding-right: 12%;
+    padding-left: 15%;
+    padding-right: 15%;
     width: 100%
 }
 .light-table {
-    background: linear-gradient(to right, #e0f1fe 0%,#dbf0ff 0%,#e0f1fe 0%,#e6f4fe 8%,#e6f4fe 14%,#e6f4fe 20%,#fafefe 53%);
+    background: linear-gradient(to right, #c2faf6 0%,#f8fefe 45%);
     text-align: right;
-    padding-right: 12%;
-    padding-left: 12%;
+    padding-right: 15%;
+    padding-left: 15%;
     width: 100%
 }
 
