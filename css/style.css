@@ -723,7 +723,7 @@ section.about_us h3 {
     table-layout: auto; width: 100%;
     font-family: "Helvetica Neue","Helvetica,Arial",sans-serif;
     font-size: 1.5em;
-    padding: 0 8% 0 8%;
+    /*padding: 0 8% 0 8%;*/
 }
 
 .more_about h1 {
