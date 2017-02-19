@@ -18,10 +18,10 @@
 
 $(window).scroll(function(event) {
 
-    $(".dark-table").each(function(i, el) {
+    $(".light-table").each(function(i, el) {
         var el = $(el);
         if (el.visible(true)) {
-            el.addClass("come-in-r");
+            el.addClass("come-in-l");
         }
     });
 
@@ -29,7 +29,7 @@ $(window).scroll(function(event) {
 
 var win = $(window);
 
-var allMods = $(".dark-table");
+var allMods = $(".light-table");
 
 allMods.each(function(i, el) {
     var el = $(el);
@@ -43,7 +43,7 @@ win.scroll(function(event) {
     allMods.each(function(i, el) {
         var el = $(el);
         if (el.visible(true)) {
-            el.addClass("come-in-r");
+            el.addClass("come-in-l");
         }
     });
 
