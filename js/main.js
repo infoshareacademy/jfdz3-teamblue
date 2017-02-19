@@ -1,6 +1,7 @@
 $(function(){
 
 //Sylwia
+    /* plynność menu */
     $(document).ready(function() {
 
         $('a[href^="#"]').on('click', function(event) {
@@ -16,6 +17,36 @@ $(function(){
         });
 
     });
+    /* zmienny tytul strony*/
+
+    $('li.about_us_menu').click(function()
+    {
+        document.title='Shop.pet - O produkcie';
+    });
+
+    $('li.features_menu').click(function()
+    {
+        document.title='Shop.pet - Funkcjonalnosci';
+    });
+
+    $('li.dropdown').click(function()
+    {
+        document.title='Shop.pet - Nasz Zespol';
+    });
+    $('li.newsletter_menu').click(function()
+    {
+        document.title='Shop.pet - Newsletter';
+    });
+    $('li.more_about_menu').click(function()
+    {
+        document.title='Shop.pet - Napisali o nas';
+    });
+    $('li#shop').click(function()
+    {
+        document.title='Shop.pet - Sklep';
+    });
+
+
 
 //Natalia
 
