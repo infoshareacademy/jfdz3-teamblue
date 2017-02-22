@@ -40,13 +40,16 @@ $(function() {
         document.title = 'Shop.pet - Sklep';
     });
 
+    $('.carousel').carousel({
+        interval: 4000
+    });
 
 //Natalia
 
 
     var viewportWidth = $(window).width();
 
-   console.log (viewportWidth)
+   console.log (viewportWidth);
 
         if (viewportWidth > 620 ) {
 
