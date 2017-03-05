@@ -13,6 +13,8 @@
 
     <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/slide.js"></script>
+    <script type="text/javascript" src="js/slide-white.js"></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> !-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/wilk.js"></script>
@@ -46,7 +48,7 @@
 
                             </div>
 
-               <div class="col-md-6"><a href="#"><img src="04.png" class="img-responsive logo"></a></div>
+               <div class="col-md-6"><a href="#"><img src="04.png" class="img-responsive-logo"></a></div>
 
 
 
@@ -69,9 +71,8 @@
 
                 <ul class="nav navbar-nav">
                                 <li><a href="index.html">Strona Główna</a></li>
-                                <li><a href="#oprodukcie">O Produkcie</a></li>
-                                <li><a href="#features">Funkcjonalności</a></li>
-                                <li><a href="#newsletter">Newsletter</a></li>
+                                <li class="about_us_menu"><a href="#oprodukcie">O Produkcie</a></li>
+                                <li class="features_menu"><a href="#features">Funkcjonalności</a></li>
                                 <li class="dropdown"><a href="#naszzespol" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nasz Zespół<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#sylwia">Sylwia</a></li>
@@ -80,8 +81,9 @@
                                         <li><a href="#olga">Olga</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#napisalionas">Napisali o nas</a></li>
-                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sklep<span class="caret"></span></a>
+                                <li class="newsletter_menu"><a href="#newsletter">Newsletter</a></li>
+                                <li class="more_about_menu"><a href="#napisalionas">Napisali o nas</a></li>
+                                <li class="dropdown" id="shop"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sklep<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="">Psy</a></li>
                                         <li><a href="">Koty</a></li>
@@ -133,14 +135,14 @@
              </div>
 
              <!-- Controls -->
-             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                  <span class="sr-only">Previous</span>
              </a>
              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                  <span class="sr-only">Next</span>
-             </a>
+             </a> -->
          </div>
        </section>
 
@@ -230,39 +232,31 @@
                  </div>
              </div>
              </section>
-                 <section class="more_about" id="napisalionas">
-                     <span> Napisali o nas:</span>
-                     <table class="tabela">
-                         <tbody>
-                         <tr><td>
-                                 <a href="https://radiogdansk.pl/index.php/audycje-rg/psie-porady-w-radiu-gdansk.html" >
-                                     <img src="http://imageshack.com/a/img921/2772/VCOWiP.png" alt="Radio Gdańsk" height="120" width="220" title="Mówią o nas" /></a>
-                             </td>
-                             <td>
-                                 Kampanie walczące z otyłością u zwierząt domowych stawiają na jakość produktów.
-                             </td></tr>
-                         <tr><td class="light-table">Tylko tu możemy zamówić drapaki na wymiar do mieszkania!</td>
-                             <td class="light-table">
-                                 <a href="https://www.shk.com.pl/" >
-                                     <img src="http://imageshack.com/a/img921/8114/Rxt8ok.jpg" alt="Stowarzyszenie hodowców" height="140" width="140" title="Polecają nas" /></a>
-                             </td></tr>
-                         <tr><td>
+         <section class="more_about" id="napisalionas">
+                     <h1> Napisali o nas:</h1>
+                     <div class="tabela">
+                         <p class="dark-table"><a href="https://radiogdansk.pl/index.php/audycje-rg/psie-porady-w-radiu-gdansk.html" >
+                                     <img src="http://imageshack.com/a/img921/2772/VCOWiP.png" alt="Radio Gdańsk" height="120" width="240" title="Mówią o nas" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wspierają kampanię walczącą z otyłością zwierząt domowych.
+                         </p>
+                             <p class="light-table">
+                                 Tylko tu możemy zamówić drapaki podając wymiary pomieszczenia!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.shk.com.pl/" ><img src="http://imageshack.com/a/img921/8114/Rxt8ok.jpg" alt="Stowarzyszenie hodowców" height="140" width="140" title="Polecają nas"/></a>
+                             </p>
+                         <p class="dark-table">
                              <a href="http://www.akwarium.info.pl/" >
-                                     <img src="http://imageshack.com/a/img924/3351/wa3QXv.jpg" alt="Akwarystyka" height="140" width="140" title="Czekają na nas" /></a>
-                             </td>
-                             <td>Sklep przygotowuje indywidualne zamówienia i sprowadza artykuły z zagranicy.</td></tr>
-                         <tr><td class="light-table">Opieka nad zwierzętami egzotycznymi jest łatwa dzięki suplementom z Shop.Pet</td>
-                             <td class="light-table">
-                                 <a href="https://www.shk.com.pl/" >
-                                     <img src="http://imageshack.com/a/img923/4493/ruXXCI.jpg" alt="Stowarzyszenie hodowców" height="120" width="220" title="Wspierają nas" /></a>
-                             </td></tr>
-                         </tbody>
-                     </table>
+                                     <img src="http://imageshack.com/a/img924/3351/wa3QXv.jpg" alt="Akwarystyka" height="140" width="140" title="Czekają na nas" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sklep przygotowuje indywidualne zamówienia i sprowadza artykuły z zagranicy.
+                             </p>
+                         <p class="light-table">
+                             Opieka nad zwierzętami egzotycznymi jest łatwiejsza.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.shk.com.pl/" ><img src="http://imageshack.com/a/img923/4493/ruXXCI.jpg" alt="Stowarzyszenie hodowców" height="120" width="220" title="Wspierają nas" /></a>
+                             </p>
+                     </div>
                  </section>
+
+         <a class="gameboy" href="chooseyourpet.html">
+             <img  src="gameboy.png"  /></a>
 </main>
     <footer>
         <section class="footer">
-            <span>ZNAJDŹ NAS W SIECI:</span>
+            <span>Znajdź nas w sieci:</span>
         <p>
                 <a href="https://www.facebook.com/infoshareacademy/?fref=ts" >
                     <img class="img-circle" src="facebook.PNG" alt="konto Facebook" height="68" width="68" title="Znajdź nas na Facebooku" /></a>
@@ -273,14 +267,10 @@
                 <a href="https://www.youtube.com/channel/UC5wCWXYVEXlQ8Fay9UcF7bw" >
                     <img class="img-circle" src="googleplus.png" alt="konto Google +" height="68" width="68" title="Znajdź nas na Google +" /></a>
         </p>
-            <p>Warunki zamawiania i zwrotów</p>
-            <p>Wszelkie prawa zastrzeżone</p>
-            <p>Copyright TeamBlue</span></p>
-            <p>Ostatnia aktualizacja 28.01.2017r.</p>
 
-            <a href="#">
-                <img class="animated-dog" src="http://www.animatedimages.org/data/media/202/animated-dog-image-0168.gif" border="0" alt="animated-dog"/>
-            </a>
+            <p><a href="regulamin-sklepu.pdf">Warunki zamawiania i zwrotów</a></p>
+            <p> Copyright TeamBlue 2017</p>
+
 
         </section>
     </footer>
