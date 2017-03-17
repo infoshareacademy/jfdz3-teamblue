@@ -284,6 +284,8 @@ ul.dropdown-menu > li > a:hover {
     div.phonenumber {
         margin-bottom: 25px;
     }
+
+
 }
 
 @media screen and (min-width: 200px) and (max-width: 1200px) {
@@ -319,6 +321,23 @@ ul.dropdown-menu > li > a:hover {
     #custom-search-form button {
         left: 104px;
         bottom: 40px;
+    }
+}
+@media screen and (max-width: 1251px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+
+    .navbar-header .collapse, .navbar-toggle {
+        display: block !important;
+    }
+
+    .navbar-header {
+        float: none;
     }
 }
 
