@@ -245,15 +245,20 @@ $(function() {
     $('#submit').click(function (){
 
         $xxx = parseInt($('.final_result').val());
+
         var antibotResult = document.getElementById("antibot_result");
 
         console.log(finalResult, $xxx);
 
+
         if ( finalResult === ($xxx) ) {
-            return true
+            return true;
         }
-        else {
-            antibotResult.reportValidity(); return false;
+
+        else   {
+            antibotResult.reportValidity();
+            alert ('Suma nieprawidłowa. :( Spróbuj ponownie..');
+            return false;
         }
 
     });

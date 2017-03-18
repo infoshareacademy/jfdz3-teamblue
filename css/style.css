@@ -267,10 +267,19 @@ ul.dropdown-menu > li > a:hover {
         outline: none;
     }
 
-@media screen and (min-width: 992px) and (max-width: 1512px) {
+
+@media screen and (min-width: 1200px)  {
 
     #custom-search-form button {
-        left: 86px;
+        left: 104px;
+        bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    #custom-search-form button {
+        left: 84px;
         bottom: 36px;
     }
 }
@@ -285,10 +294,10 @@ ul.dropdown-menu > li > a:hover {
         margin-bottom: 25px;
     }
 
-
 }
 
 @media screen and (min-width: 200px) and (max-width: 1200px) {
+
 
     i.fa-phone:before {
         font-size: 1.2em;
@@ -316,13 +325,6 @@ ul.dropdown-menu > li > a:hover {
 }
 
 
-@media screen and (min-width: 1200px) and (max-width: 1512px) {
-
-    #custom-search-form button {
-        left: 104px;
-        bottom: 40px;
-    }
-}
 @media screen and (max-width: 1251px) {
     .navbar-collapse.collapse {
         display: none !important;
