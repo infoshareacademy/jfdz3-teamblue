@@ -46,6 +46,7 @@ $(function() {
 
 //Natalia
 
+    /*
 
     var viewportWidth = $(window).width();
 
@@ -229,7 +230,7 @@ $(function() {
 
 
 
-
+*/
 
 
 /*antibot*/

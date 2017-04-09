@@ -380,6 +380,11 @@ h2.title-short {
     padding-top: 150px;
 }
 
+
+.btn-group-lg>.btn, .btn-lg {
+    margin-bottom: 10px;
+}
+
 @media screen and (min-width: 800px) and (max-width: 1199px) {
 
 
